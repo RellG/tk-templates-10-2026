@@ -39,6 +39,8 @@ input{flex:1;min-width:200px}
 .meta span{font-size:11px;color:#83838d}
 
 .kicker{font-size:11px;letter-spacing:.18em;color:#b4dd88;display:block;margin-bottom:24px}h1{font-size:clamp(30px,4vw,52px);letter-spacing:-.045em}.prev{height:280px}.p-body{position:relative;padding:24px 18px}.p-body img{position:absolute;right:0;top:0;width:48%;height:100%;object-fit:cover}.p-body b,.p-body em,.p-body .p-btn{position:relative;max-width:48%;z-index:1}.p-body b{font-size:22px}.p-body em{font-size:10px}.p-centered,.p-centered-panel{text-align:left;align-items:flex-start}.p-centered .p-btn,.p-centered-panel .p-btn{margin-left:0;margin-right:0}.p-display b{font-size:27px}.p-nav{font-size:11px;padding:13px 16px}.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}.meta{padding:16px}.meta strong{font-size:16px;display:flex;justify-content:space-between}.meta span{font-size:12px;line-height:1.6;color:#a5a5ae}.meta small{color:#b4dd88}.tools button{border:1px solid #42424a;border-radius:7px;background:#202025;color:white;padding:9px 15px;cursor:pointer}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.empty,footer{max-width:1500px;margin:auto;padding:25px 30px;color:#b1b1ba;font-size:13px}footer{border-top:1px solid #303036;padding-bottom:45px}footer a{color:inherit}:focus-visible{outline:3px solid #b4dd88;outline-offset:4px}[hidden]{display:none!important}@media(max-width:1050px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.grid{grid-template-columns:1fr;padding:10px 20px 45px}header{padding:35px 20px 15px}.tools{padding:15px 20px}.tools input{width:100%}.prev{height:290px}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+.p-editorial img,.p-display img,.p-centered img,.p-centered-panel img{top:auto;bottom:0;width:100%;height:46%}.p-editorial b,.p-display b,.p-centered b,.p-centered-panel b{max-width:100%;font-size:21px}.p-editorial em,.p-display em,.p-centered em,.p-centered-panel em,.p-editorial .p-btn,.p-display .p-btn,.p-centered .p-btn,.p-centered-panel .p-btn{display:none}.p-centered,.p-centered-panel{text-align:center;align-items:center}.photo-immersive .p-body img{inset:0;width:100%;height:100%;filter:brightness(.35)}.photo-immersive .p-body b{color:#fff;max-width:90%;font-size:26px}.photo-immersive .p-body em{display:block;color:#fff;opacity:1;max-width:85%}.photo-immersive .p-body .p-btn{display:block;background:white!important}.photo-collage .p-body img{top:30px;right:12px;bottom:auto;left:auto;width:45%;height:70%;border-radius:50%;transform:rotate(-6deg)}.photo-collage .p-body b{max-width:48%;font-size:23px}.photo-collage .p-body{text-align:left;align-items:flex-start}
 </style></head>
 <body>
 <header>
@@ -55,7 +57,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./001_nuxt.html"
      data-name="verdant nuxt developer tools" data-theme="dark"
      data-hero="split" data-kind="Developer tools">
-    <div class="prev" style="background:#020618;color:#ffffff;border-color:#0c2229">
+    <div class="prev photo-framed" style="background:#020618;color:#ffffff;border-color:#0c2229">
       <div class="p-nav"><span style="font-family:'Public Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Verdant</span>
         <i style="background:#00dc82;border-radius:6px"></i></div>
       <div class="p-body p-split"><img src="./assets/photos/engineering.jpg" alt="" loading="lazy" width="400" height="250">
@@ -73,7 +75,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./002_mollie.html"
      data-name="counter mollie commerce" data-theme="light"
      data-hero="display" data-kind="Commerce">
-    <div class="prev" style="background:#f7f4f1;color:#000000;border-color:#cfcdca">
+    <div class="prev photo-framed" style="background:#f7f4f1;color:#000000;border-color:#cfcdca">
       <div class="p-nav"><span style="font-family:'sans-serif', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Counter</span>
         <i style="background:#3b281d;border-radius:9999px"></i></div>
       <div class="p-body p-display"><img src="./assets/photos/quiet-desk.jpg" alt="" loading="lazy" width="400" height="250">
@@ -91,7 +93,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./003_modern_treasury.html"
      data-name="ledger house modern treasury finance" data-theme="light"
      data-hero="split" data-kind="Finance">
-    <div class="prev" style="background:#ffffff;color:#151515;border-color:#dadada">
+    <div class="prev photo-framed" style="background:#ffffff;color:#151515;border-color:#dadada">
       <div class="p-nav"><span style="font-family:'mt-neue-display', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Ledger House</span>
         <i style="background:#151515;border-radius:2px"></i></div>
       <div class="p-body p-split"><img src="./assets/photos/architecture.jpg" alt="" loading="lazy" width="400" height="250">
@@ -109,7 +111,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./004_milanote.html"
      data-name="pinboard studio milanote creative tools" data-theme="mixed"
      data-hero="editorial" data-kind="Creative tools">
-    <div class="prev" style="background:#303b4b;color:#ffffff;border-color:#515a68">
+    <div class="prev photo-framed" style="background:#303b4b;color:#ffffff;border-color:#515a68">
       <div class="p-nav"><span style="font-family:'Tiempos', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Pinboard Studio</span>
         <i style="background:#f4511c;border-radius:6px"></i></div>
       <div class="p-body p-editorial"><img src="./assets/photos/creative-desk.jpg" alt="" loading="lazy" width="400" height="250">
@@ -127,7 +129,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./005_magic_spoon.html"
      data-name="sunday crunch magic spoon food &amp; drink" data-theme="light"
      data-hero="split" data-kind="Food &amp; drink">
-    <div class="prev" style="background:#ffffff;color:#000000;border-color:#d6d6d6">
+    <div class="prev photo-immersive" style="background:#ffffff;color:#000000;border-color:#d6d6d6">
       <div class="p-nav"><span style="font-family:'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Sunday Crunch</span>
         <i style="background:#3f0791;border-radius:52px"></i></div>
       <div class="p-body p-split"><img src="./assets/photos/granola.jpg" alt="" loading="lazy" width="400" height="250">
@@ -145,7 +147,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./006_kagi.html"
      data-name="margin kagi research" data-theme="light"
      data-hero="split" data-kind="Research">
-    <div class="prev" style="background:#ffffff;color:#111111;border-color:#d9d9d9">
+    <div class="prev photo-framed" style="background:#ffffff;color:#111111;border-color:#d9d9d9">
       <div class="p-nav"><span style="font-family:'Lufga', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Margin</span>
         <i style="background:#18181a;border-radius:48px"></i></div>
       <div class="p-body p-split"><img src="./assets/photos/quiet-desk.jpg" alt="" loading="lazy" width="400" height="250">
@@ -163,7 +165,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./007_hopper.html"
      data-name="somewhere good hopper travel" data-theme="light"
      data-hero="split" data-kind="Travel">
-    <div class="prev" style="background:#ffffff;color:#111111;border-color:#d9d9d9">
+    <div class="prev photo-immersive" style="background:#ffffff;color:#111111;border-color:#d9d9d9">
       <div class="p-nav"><span style="font-family:'Proxima Nova', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Somewhere Good</span>
         <i style="background:#1878ec;border-radius:1000px"></i></div>
       <div class="p-body p-split"><img src="./assets/photos/santorini.jpg" alt="" loading="lazy" width="400" height="250">
@@ -181,7 +183,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./008_heptabase.html"
      data-name="fieldnotes heptabase research" data-theme="light"
      data-hero="editorial" data-kind="Research">
-    <div class="prev" style="background:#fdfcfb;color:#111111;border-color:#e4ded3">
+    <div class="prev photo-framed" style="background:#fdfcfb;color:#111111;border-color:#e4ded3">
       <div class="p-nav"><span style="font-family:'Instrument Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Fieldnotes</span>
         <i style="background:#2e2e2e;border-radius:6px"></i></div>
       <div class="p-body p-editorial"><img src="./assets/photos/creative-desk.jpg" alt="" loading="lazy" width="400" height="250">
@@ -199,7 +201,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./009_hey.html"
      data-name="paper post hey communication" data-theme="light"
      data-hero="display" data-kind="Communication">
-    <div class="prev" style="background:#ffffff;color:#231c33;border-color:#dcdbde">
+    <div class="prev photo-collage" style="background:#ffffff;color:#231c33;border-color:#dcdbde">
       <div class="p-nav"><span style="font-family:'Really Sans Large', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Paper Post</span>
         <i style="background:#b3f4e0;border-radius:43.68px"></i></div>
       <div class="p-body p-display"><img src="./assets/photos/quiet-desk.jpg" alt="" loading="lazy" width="400" height="250">
@@ -217,7 +219,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./010_graphite.html"
      data-name="branchwork graphite developer tools" data-theme="dark"
      data-hero="editorial" data-kind="Developer tools">
-    <div class="prev" style="background:#0a0a0a;color:#ffffff;border-color:#464646">
+    <div class="prev photo-framed" style="background:#0a0a0a;color:#ffffff;border-color:#464646">
       <div class="p-nav"><span style="font-family:'matterFont', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Branchwork</span>
         <i style="background:#e5e5e5;border-radius:8px"></i></div>
       <div class="p-body p-editorial"><img src="./assets/photos/workspace-dark.jpg" alt="" loading="lazy" width="400" height="250">
@@ -235,7 +237,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./011_grafana_labs.html"
      data-name="daybreak grafana labs observability" data-theme="light"
      data-hero="split" data-kind="Observability">
-    <div class="prev" style="background:#f4f4f6;color:#000000;border-color:#e6e6ea">
+    <div class="prev photo-framed" style="background:#f4f4f6;color:#000000;border-color:#e6e6ea">
       <div class="p-nav"><span style="font-family:'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Daybreak</span>
         <i style="background:#1b55f5;border-radius:8px"></i></div>
       <div class="p-body p-split"><img src="./assets/photos/editing.jpg" alt="" loading="lazy" width="400" height="250">
@@ -253,7 +255,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./012_glyphs.html"
      data-name="letterform glyphs design tools" data-theme="light"
      data-hero="display" data-kind="Design tools">
-    <div class="prev" style="background:#ffffff;color:#000000;border-color:#d6d6d6">
+    <div class="prev photo-collage" style="background:#ffffff;color:#000000;border-color:#d6d6d6">
       <div class="p-nav"><span style="font-family:'Symbol Helper', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Letterform</span>
         <i style="background:#604900;border-radius:5px"></i></div>
       <div class="p-body p-display"><img src="./assets/photos/architecture.jpg" alt="" loading="lazy" width="400" height="250">
@@ -271,7 +273,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./013_gitbutler.html"
      data-name="worktree gitbutler developer tools" data-theme="light"
      data-hero="display" data-kind="Developer tools">
-    <div class="prev" style="background:#ffffff;color:#1c1917;border-color:#dbdada">
+    <div class="prev photo-framed" style="background:#ffffff;color:#1c1917;border-color:#dbdada">
       <div class="p-nav"><span style="font-family:'But Head', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Worktree</span>
         <i style="background:#25b1b1;border-radius:60px"></i></div>
       <div class="p-body p-display"><img src="./assets/photos/engineering.jpg" alt="" loading="lazy" width="400" height="250">
@@ -289,7 +291,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./014_cleanshot_x.html"
      data-name="framegrab cleanshot x creative tools" data-theme="light"
      data-hero="centered" data-kind="Creative tools">
-    <div class="prev" style="background:#ffffff;color:#000000;border-color:#d6d6d6">
+    <div class="prev photo-framed" style="background:#ffffff;color:#000000;border-color:#d6d6d6">
       <div class="p-nav"><span style="font-family:'Google Sans Flex', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Framegrab</span>
         <i style="background:#0d44e8;border-radius:14px"></i></div>
       <div class="p-body p-centered"><img src="./assets/photos/workspace-light.jpg" alt="" loading="lazy" width="400" height="250">
@@ -307,7 +309,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./015_featurebase.html"
      data-name="listening room featurebase customer feedback" data-theme="dark"
      data-hero="centered-panel" data-kind="Customer feedback">
-    <div class="prev" style="background:#050608;color:#ffffff;border-color:#28292c">
+    <div class="prev photo-framed" style="background:#050608;color:#ffffff;border-color:#28292c">
       <div class="p-nav"><span style="font-family:'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Listening Room</span>
         <i style="background:#ffffff;border-radius:12px"></i></div>
       <div class="p-body p-centered-panel"><img src="./assets/photos/workspace-dark.jpg" alt="" loading="lazy" width="400" height="250">
@@ -325,7 +327,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./016_capacities.html"
      data-name="commonplace capacities knowledge" data-theme="light"
      data-hero="editorial" data-kind="Knowledge">
-    <div class="prev" style="background:#ffffff;color:#1a1a1d;border-color:#dadadb">
+    <div class="prev photo-framed" style="background:#ffffff;color:#1a1a1d;border-color:#dadadb">
       <div class="p-nav"><span style="font-family:'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Commonplace</span>
         <i style="background:#1a1a1d;border-radius:6px"></i></div>
       <div class="p-body p-editorial"><img src="./assets/photos/quiet-desk.jpg" alt="" loading="lazy" width="400" height="250">
@@ -343,7 +345,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./017_captions.html"
      data-name="cut &amp; story captions video tools" data-theme="light"
      data-hero="display" data-kind="Video tools">
-    <div class="prev" style="background:#ffffff;color:#1d1f20;border-color:#e8eff2">
+    <div class="prev photo-framed" style="background:#ffffff;color:#1d1f20;border-color:#e8eff2">
       <div class="p-nav"><span style="font-family:'Exposure-09cb373df0d2138c', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Cut &amp; Story</span>
         <i style="background:#00d0ff;border-radius:12px"></i></div>
       <div class="p-body p-display"><img src="./assets/photos/editing.jpg" alt="" loading="lazy" width="400" height="250">
@@ -361,7 +363,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./018_bunny_net.html"
      data-name="farpoint bunny.net infrastructure" data-theme="light"
      data-hero="split" data-kind="Infrastructure">
-    <div class="prev" style="background:#e1f2ff;color:#111111;border-color:#d3e2f1">
+    <div class="prev photo-framed" style="background:#e1f2ff;color:#111111;border-color:#d3e2f1">
       <div class="p-nav"><span style="font-family:'Rubik', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Farpoint</span>
         <i style="background:#fd8d32;border-radius:6px"></i></div>
       <div class="p-body p-split"><img src="./assets/photos/mountain-lake.jpg" alt="" loading="lazy" width="400" height="250">
@@ -379,7 +381,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./019_bose.html"
      data-name="afterhours bose audio" data-theme="light"
      data-hero="split" data-kind="Audio">
-    <div class="prev" style="background:#ffffff;color:#000000;border-color:#d6d6d6">
+    <div class="prev photo-immersive" style="background:#ffffff;color:#000000;border-color:#d6d6d6">
       <div class="p-nav"><span style="font-family:'Bose Headline', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Afterhours</span>
         <i style="background:#005bff;border-radius:2px"></i></div>
       <div class="p-body p-split"><img src="./assets/photos/headphones.jpg" alt="" loading="lazy" width="400" height="250">
@@ -397,7 +399,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./020_bevel.html"
      data-name="daywell bevel wellness" data-theme="light"
      data-hero="centered" data-kind="Wellness">
-    <div class="prev" style="background:#ffffff;color:#1f2025;border-color:#dcdcdc">
+    <div class="prev photo-framed" style="background:#ffffff;color:#1f2025;border-color:#dcdcdc">
       <div class="p-nav"><span style="font-family:'-apple-system, BlinkMacSystemFont, Inter, "Segoe UI", sans-serif', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Daywell</span>
         <i style="background:#ffab94;border-radius:128px"></i></div>
       <div class="p-body p-centered"><img src="./assets/photos/breakfast.jpg" alt="" loading="lazy" width="400" height="250">
@@ -415,7 +417,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./021_your_workplace_has_the_answer_just_ask_dala_for_it.html"
      data-name="askroom your workplace has the answer. just ask dala for it. knowledge" data-theme="dark"
      data-hero="split" data-kind="Knowledge">
-    <div class="prev" style="background:#000000;color:#ffffff;border-color:#292929">
+    <div class="prev photo-framed" style="background:#000000;color:#ffffff;border-color:#292929">
       <div class="p-nav"><span style="font-family:'PPNeueMontreal', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Askroom</span>
         <i style="background:#8052ff;border-radius:24px"></i></div>
       <div class="p-body p-split"><img src="./assets/photos/creative-desk.jpg" alt="" loading="lazy" width="400" height="250">
@@ -433,7 +435,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./022_mercury.html"
      data-name="northbank mercury finance" data-theme="dark"
      data-hero="split" data-kind="Finance">
-    <div class="prev" style="background:#171721;color:#ffffff;border-color:#e2e3ed">
+    <div class="prev photo-immersive" style="background:#171721;color:#ffffff;border-color:#e2e3ed">
       <div class="p-nav"><span style="font-family:'arcadia', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Northbank</span>
         <i style="background:#5266eb;border-radius:32px"></i></div>
       <div class="p-body p-split"><img src="./assets/photos/architecture.jpg" alt="" loading="lazy" width="400" height="250">
@@ -451,7 +453,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./023_linear.html"
      data-name="outline linear project management" data-theme="dark"
      data-hero="split" data-kind="Project management">
-    <div class="prev" style="background:#08090a;color:#ffffff;border-color:#23252a">
+    <div class="prev photo-framed" style="background:#08090a;color:#ffffff;border-color:#23252a">
       <div class="p-nav"><span style="font-family:'Inter Variable', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Outline</span>
         <i style="background:#e4f222;border-radius:6px"></i></div>
       <div class="p-body p-split"><img src="./assets/photos/workspace-dark.jpg" alt="" loading="lazy" width="400" height="250">
@@ -469,7 +471,7 @@ input{flex:1;min-width:200px}
   <a class="tile" href="./024_oryzo_ai.html"
      data-name="goodform oryzo ai creative agency" data-theme="dark"
      data-hero="display" data-kind="Creative agency">
-    <div class="prev" style="background:#100904;color:#ffedd7;border-color:#40372e">
+    <div class="prev photo-immersive" style="background:#100904;color:#ffedd7;border-color:#40372e">
       <div class="p-nav"><span style="font-family:'halyard-display-variable', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif">Goodform</span>
         <i style="background:#382416;border-radius:9999px"></i></div>
       <div class="p-body p-display"><img src="./assets/photos/creative-desk.jpg" alt="" loading="lazy" width="400" height="250">
