@@ -1,0 +1,19 @@
+{
+  "name": "tk-templates-10-2026",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "24 original token-driven web templates for TKTechnology \u2014 collection 02",
+  "scripts": {
+    "build": "node build-templates.js",
+    "start": "node serve.js",
+    "test": "node scripts/validate.mjs",
+    "test:browser": "node scripts/browser-test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

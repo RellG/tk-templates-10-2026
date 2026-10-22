@@ -1,0 +1,54 @@
+{
+  "title": "Mintline",
+  "theme": "light",
+  "semantic": {
+    "bg": "#f1f8e7",
+    "fg": "#20311a",
+    "accent": "#386423",
+    "action": "#386423",
+    "border": "#d0d8c6",
+    "muted": "#5f6d57",
+    "surface": "#eaf1e0",
+    "alt": "#e4ecdb"
+  },
+  "fonts": {
+    "display": "Georgia, serif",
+    "body": "system-ui, sans-serif",
+    "names": [
+      "display",
+      "body"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Canvas",
+      "hex": "#f1f8e7",
+      "token": "--color-bg",
+      "role": "background"
+    },
+    {
+      "name": "Ink",
+      "hex": "#20311a",
+      "token": "--color-fg",
+      "role": "foreground"
+    },
+    {
+      "name": "Highlight",
+      "hex": "#386423",
+      "token": "--color-accent",
+      "role": "accent"
+    }
+  ],
+  "plan": {
+    "hero": "centered",
+    "nav": "centered",
+    "sections": [
+      "stats",
+      "features",
+      "tabs",
+      "faq",
+      "cta"
+    ],
+    "footer": "columns"
+  }
+}

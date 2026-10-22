@@ -1,0 +1,54 @@
+{
+  "title": "Copper Pay",
+  "theme": "dark",
+  "semantic": {
+    "bg": "#241713",
+    "fg": "#fff0df",
+    "accent": "#f5ad72",
+    "action": "#f5ad72",
+    "border": "#473a34",
+    "muted": "#a7998d",
+    "surface": "#332621",
+    "alt": "#3e312b"
+  },
+  "fonts": {
+    "display": "system-ui, sans-serif",
+    "body": "system-ui, sans-serif",
+    "names": [
+      "display",
+      "body"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Canvas",
+      "hex": "#241713",
+      "token": "--color-bg",
+      "role": "background"
+    },
+    {
+      "name": "Ink",
+      "hex": "#fff0df",
+      "token": "--color-fg",
+      "role": "foreground"
+    },
+    {
+      "name": "Highlight",
+      "hex": "#f5ad72",
+      "token": "--color-accent",
+      "role": "accent"
+    }
+  ],
+  "plan": {
+    "hero": "split",
+    "nav": "split",
+    "sections": [
+      "stats",
+      "features",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "footer": "big"
+  }
+}

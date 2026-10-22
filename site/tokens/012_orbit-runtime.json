@@ -1,0 +1,54 @@
+{
+  "title": "Orbit Runtime",
+  "theme": "light",
+  "semantic": {
+    "bg": "#f1f3ff",
+    "fg": "#24234b",
+    "accent": "#5149aa",
+    "action": "#5149aa",
+    "border": "#d0d2e2",
+    "muted": "#616181",
+    "surface": "#eaecf9",
+    "alt": "#e5e7f4"
+  },
+  "fonts": {
+    "display": "system-ui, sans-serif",
+    "body": "system-ui, sans-serif",
+    "names": [
+      "display",
+      "body"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Canvas",
+      "hex": "#f1f3ff",
+      "token": "--color-bg",
+      "role": "background"
+    },
+    {
+      "name": "Ink",
+      "hex": "#24234b",
+      "token": "--color-fg",
+      "role": "foreground"
+    },
+    {
+      "name": "Highlight",
+      "hex": "#5149aa",
+      "token": "--color-accent",
+      "role": "accent"
+    }
+  ],
+  "plan": {
+    "hero": "split",
+    "nav": "pill",
+    "sections": [
+      "bento",
+      "quotes",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "footer": "columns"
+  }
+}

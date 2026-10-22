@@ -1,0 +1,56 @@
+{
+  "title": "Kinfolk CRM",
+  "theme": "light",
+  "semantic": {
+    "bg": "#fff4ef",
+    "fg": "#442b30",
+    "accent": "#a13d57",
+    "action": "#a13d57",
+    "border": "#e1d4d0",
+    "muted": "#776265",
+    "surface": "#f8ede8",
+    "alt": "#f4e8e4"
+  },
+  "fonts": {
+    "display": "Georgia, serif",
+    "body": "system-ui, sans-serif",
+    "names": [
+      "display",
+      "body"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Canvas",
+      "hex": "#fff4ef",
+      "token": "--color-bg",
+      "role": "background"
+    },
+    {
+      "name": "Ink",
+      "hex": "#442b30",
+      "token": "--color-fg",
+      "role": "foreground"
+    },
+    {
+      "name": "Highlight",
+      "hex": "#a13d57",
+      "token": "--color-accent",
+      "role": "accent"
+    }
+  ],
+  "plan": {
+    "hero": "editorial",
+    "nav": "rule",
+    "sections": [
+      "logos",
+      "stats",
+      "features",
+      "band",
+      "quotes",
+      "faq",
+      "cta"
+    ],
+    "footer": "rule"
+  }
+}

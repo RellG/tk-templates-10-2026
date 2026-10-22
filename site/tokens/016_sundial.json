@@ -1,0 +1,54 @@
+{
+  "title": "Sundial",
+  "theme": "light",
+  "semantic": {
+    "bg": "#fffae7",
+    "fg": "#3f321b",
+    "accent": "#95620c",
+    "action": "#95620c",
+    "border": "#e0dac6",
+    "muted": "#746953",
+    "surface": "#f8f3e0",
+    "alt": "#f3eedb"
+  },
+  "fonts": {
+    "display": "Georgia, serif",
+    "body": "system-ui, sans-serif",
+    "names": [
+      "display",
+      "body"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Canvas",
+      "hex": "#fffae7",
+      "token": "--color-bg",
+      "role": "background"
+    },
+    {
+      "name": "Ink",
+      "hex": "#3f321b",
+      "token": "--color-fg",
+      "role": "foreground"
+    },
+    {
+      "name": "Highlight",
+      "hex": "#95620c",
+      "token": "--color-accent",
+      "role": "accent"
+    }
+  ],
+  "plan": {
+    "hero": "centered",
+    "nav": "split",
+    "sections": [
+      "bento",
+      "quotes",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "footer": "columns"
+  }
+}

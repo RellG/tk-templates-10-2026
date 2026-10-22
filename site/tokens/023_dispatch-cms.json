@@ -1,0 +1,56 @@
+{
+  "title": "Dispatch CMS",
+  "theme": "dark",
+  "semantic": {
+    "bg": "#171924",
+    "fg": "#fff5ed",
+    "accent": "#f9ad74",
+    "action": "#f9ad74",
+    "border": "#3c3c44",
+    "muted": "#a29d9d",
+    "surface": "#272832",
+    "alt": "#33333c"
+  },
+  "fonts": {
+    "display": "ui-monospace, monospace",
+    "body": "system-ui, sans-serif",
+    "names": [
+      "display",
+      "body"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Canvas",
+      "hex": "#171924",
+      "token": "--color-bg",
+      "role": "background"
+    },
+    {
+      "name": "Ink",
+      "hex": "#fff5ed",
+      "token": "--color-fg",
+      "role": "foreground"
+    },
+    {
+      "name": "Highlight",
+      "hex": "#f9ad74",
+      "token": "--color-accent",
+      "role": "accent"
+    }
+  ],
+  "plan": {
+    "hero": "display",
+    "nav": "split",
+    "sections": [
+      "stats",
+      "features",
+      "bento",
+      "showcase",
+      "band",
+      "pricing",
+      "cta"
+    ],
+    "footer": "big"
+  }
+}

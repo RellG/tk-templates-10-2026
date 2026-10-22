@@ -1,0 +1,56 @@
+{
+  "title": "Launchrail",
+  "theme": "dark",
+  "semantic": {
+    "bg": "#0c1722",
+    "fg": "#eaf7ff",
+    "accent": "#6fc4ef",
+    "action": "#6fc4ef",
+    "border": "#303b45",
+    "muted": "#919da7",
+    "surface": "#1c2731",
+    "alt": "#27323d"
+  },
+  "fonts": {
+    "display": "ui-monospace, monospace",
+    "body": "system-ui, sans-serif",
+    "names": [
+      "display",
+      "body"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Canvas",
+      "hex": "#0c1722",
+      "token": "--color-bg",
+      "role": "background"
+    },
+    {
+      "name": "Ink",
+      "hex": "#eaf7ff",
+      "token": "--color-fg",
+      "role": "foreground"
+    },
+    {
+      "name": "Highlight",
+      "hex": "#6fc4ef",
+      "token": "--color-accent",
+      "role": "accent"
+    }
+  ],
+  "plan": {
+    "hero": "centered-panel",
+    "nav": "split",
+    "sections": [
+      "stats",
+      "features",
+      "alternating",
+      "quotes",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "footer": "columns"
+  }
+}

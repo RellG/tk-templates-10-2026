@@ -1,0 +1,726 @@
+[
+  {
+    "id": "001_signal-atlas",
+    "title": "Signal Atlas",
+    "collection": "2026-10",
+    "category": "analytics",
+    "theme": "light",
+    "hero": "editorial",
+    "sections": [
+      "stats",
+      "features",
+      "alternating",
+      "showcase",
+      "quotes",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "description": "Governed metrics, self-serve exploration, and alerts that page the person who can actually fix it.",
+    "preview": "./001_signal-atlas.html",
+    "download": "./downloads/001_signal-atlas.html",
+    "tokens": "./tokens/001_signal-atlas.json",
+    "colors": {
+      "bg": "#f5f3e9",
+      "fg": "#17251c",
+      "accent": "#386b45",
+      "action": "#386b45",
+      "border": "#d1d2c8",
+      "muted": "#5f685f",
+      "surface": "#edece2",
+      "alt": "#e8e7dd"
+    }
+  },
+  {
+    "id": "002_prism-metrics",
+    "title": "Prism Metrics",
+    "collection": "2026-10",
+    "category": "analytics",
+    "theme": "dark",
+    "hero": "centered-panel",
+    "sections": [
+      "alternating",
+      "bento",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "description": "Query your warehouse directly, define each metric once, and let anyone answer their own question.",
+    "preview": "./002_prism-metrics.html",
+    "download": "./downloads/002_prism-metrics.html",
+    "tokens": "./tokens/002_prism-metrics.json",
+    "colors": {
+      "bg": "#101321",
+      "fg": "#f2f4ff",
+      "accent": "#a99bff",
+      "action": "#a99bff",
+      "border": "#343745",
+      "muted": "#989aa6",
+      "surface": "#202331",
+      "alt": "#2b2e3c"
+    }
+  },
+  {
+    "id": "003_tally-studio",
+    "title": "Tally Studio",
+    "collection": "2026-10",
+    "category": "analytics",
+    "theme": "light",
+    "hero": "display",
+    "sections": [
+      "stats",
+      "features",
+      "bento",
+      "showcase",
+      "quotes",
+      "cta"
+    ],
+    "description": "Governed metrics, self-serve exploration, and alerts that page the person who can actually fix it.",
+    "preview": "./003_tally-studio.html",
+    "download": "./downloads/003_tally-studio.html",
+    "tokens": "./tokens/003_tally-studio.json",
+    "colors": {
+      "bg": "#fff5e8",
+      "fg": "#302018",
+      "accent": "#ab3c16",
+      "action": "#ab3c16",
+      "border": "#ded3c7",
+      "muted": "#73655c",
+      "surface": "#f8eee1",
+      "alt": "#f3e8dc"
+    }
+  },
+  {
+    "id": "004_copper-pay",
+    "title": "Copper Pay",
+    "collection": "2026-10",
+    "category": "payments",
+    "theme": "dark",
+    "hero": "split",
+    "sections": [
+      "stats",
+      "features",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "description": "Take payments in 40 markets on local rails, and close the books without a spreadsheet.",
+    "preview": "./004_copper-pay.html",
+    "download": "./downloads/004_copper-pay.html",
+    "tokens": "./tokens/004_copper-pay.json",
+    "colors": {
+      "bg": "#241713",
+      "fg": "#fff0df",
+      "accent": "#f5ad72",
+      "action": "#f5ad72",
+      "border": "#473a34",
+      "muted": "#a7998d",
+      "surface": "#332621",
+      "alt": "#3e312b"
+    }
+  },
+  {
+    "id": "005_current-ledger",
+    "title": "Current Ledger",
+    "collection": "2026-10",
+    "category": "payments",
+    "theme": "light",
+    "hero": "centered-panel",
+    "sections": [
+      "stats",
+      "alternating",
+      "bento",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "description": "Usage billing, retries and payouts on a double-entry ledger you can audit line by line.",
+    "preview": "./005_current-ledger.html",
+    "download": "./downloads/005_current-ledger.html",
+    "tokens": "./tokens/005_current-ledger.json",
+    "colors": {
+      "bg": "#edf7f6",
+      "fg": "#112e32",
+      "accent": "#126c77",
+      "action": "#126c77",
+      "border": "#cad7d7",
+      "muted": "#536a6d",
+      "surface": "#e5f0ef",
+      "alt": "#e0ebea"
+    }
+  },
+  {
+    "id": "006_mintline",
+    "title": "Mintline",
+    "collection": "2026-10",
+    "category": "payments",
+    "theme": "light",
+    "hero": "centered",
+    "sections": [
+      "stats",
+      "features",
+      "tabs",
+      "faq",
+      "cta"
+    ],
+    "description": "One API for cards, transfers and payouts across 40 markets, with reconciliation that actually balances.",
+    "preview": "./006_mintline.html",
+    "download": "./downloads/006_mintline.html",
+    "tokens": "./tokens/006_mintline.json",
+    "colors": {
+      "bg": "#f1f8e7",
+      "fg": "#20311a",
+      "accent": "#386423",
+      "action": "#386423",
+      "border": "#d0d8c6",
+      "muted": "#5f6d57",
+      "surface": "#eaf1e0",
+      "alt": "#e4ecdb"
+    }
+  },
+  {
+    "id": "007_forma-kit",
+    "title": "Forma Kit",
+    "collection": "2026-10",
+    "category": "design",
+    "theme": "light",
+    "hero": "editorial",
+    "sections": [
+      "logos",
+      "stats",
+      "features",
+      "bento",
+      "showcase",
+      "faq",
+      "cta"
+    ],
+    "description": "Version your tokens like code, see what each change touches, and validate contrast on every save.",
+    "preview": "./007_forma-kit.html",
+    "download": "./downloads/007_forma-kit.html",
+    "tokens": "./tokens/007_forma-kit.json",
+    "colors": {
+      "bg": "#f7f2ed",
+      "fg": "#2a2421",
+      "accent": "#a34329",
+      "action": "#a34329",
+      "border": "#d6d1cc",
+      "muted": "#67625e",
+      "surface": "#f0ebe6",
+      "alt": "#ebe6e1"
+    }
+  },
+  {
+    "id": "008_chromatic",
+    "title": "Chromatic",
+    "collection": "2026-10",
+    "category": "design",
+    "theme": "dark",
+    "hero": "display",
+    "sections": [
+      "stats",
+      "features",
+      "showcase",
+      "quotes",
+      "pricing",
+      "cta"
+    ],
+    "description": "Author your design language once; publish it to CSS, Swift, Compose and Figma automatically.",
+    "preview": "./008_chromatic.html",
+    "download": "./downloads/008_chromatic.html",
+    "tokens": "./tokens/008_chromatic.json",
+    "colors": {
+      "bg": "#1d1230",
+      "fg": "#fff1ff",
+      "accent": "#e5a1fa",
+      "action": "#e5a1fa",
+      "border": "#413651",
+      "muted": "#a598ac",
+      "surface": "#2d223e",
+      "alt": "#382d49"
+    }
+  },
+  {
+    "id": "009_grid-and-grain",
+    "title": "Grid & Grain",
+    "collection": "2026-10",
+    "category": "design",
+    "theme": "light",
+    "hero": "split",
+    "sections": [
+      "features",
+      "band",
+      "quotes",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "description": "Author your design language once; publish it to CSS, Swift, Compose and Figma automatically.",
+    "preview": "./009_grid-and-grain.html",
+    "download": "./downloads/009_grid-and-grain.html",
+    "tokens": "./tokens/009_grid-and-grain.json",
+    "colors": {
+      "bg": "#f3f2eb",
+      "fg": "#232825",
+      "accent": "#596637",
+      "action": "#596637",
+      "border": "#d2d2cb",
+      "muted": "#616560",
+      "surface": "#ecebe4",
+      "alt": "#e7e6df"
+    }
+  },
+  {
+    "id": "010_launchrail",
+    "title": "Launchrail",
+    "collection": "2026-10",
+    "category": "infra",
+    "theme": "dark",
+    "hero": "centered-panel",
+    "sections": [
+      "stats",
+      "features",
+      "alternating",
+      "quotes",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "description": "Push a branch, get an environment. Merge it, and it disappears. Roll back in one click.",
+    "preview": "./010_launchrail.html",
+    "download": "./downloads/010_launchrail.html",
+    "tokens": "./tokens/010_launchrail.json",
+    "colors": {
+      "bg": "#0c1722",
+      "fg": "#eaf7ff",
+      "accent": "#6fc4ef",
+      "action": "#6fc4ef",
+      "border": "#303b45",
+      "muted": "#919da7",
+      "surface": "#1c2731",
+      "alt": "#27323d"
+    }
+  },
+  {
+    "id": "011_basalt-cloud",
+    "title": "Basalt Cloud",
+    "collection": "2026-10",
+    "category": "infra",
+    "theme": "dark",
+    "hero": "display",
+    "sections": [
+      "stats",
+      "bento",
+      "showcase",
+      "quotes",
+      "faq",
+      "cta"
+    ],
+    "description": "Push a branch, get an environment. Merge it, and it disappears. Roll back in one click.",
+    "preview": "./011_basalt-cloud.html",
+    "download": "./downloads/011_basalt-cloud.html",
+    "tokens": "./tokens/011_basalt-cloud.json",
+    "colors": {
+      "bg": "#222320",
+      "fg": "#f5f4ea",
+      "accent": "#d1df8e",
+      "action": "#d1df8e",
+      "border": "#444440",
+      "muted": "#a6a69e",
+      "surface": "#31322e",
+      "alt": "#3b3c38"
+    }
+  },
+  {
+    "id": "012_orbit-runtime",
+    "title": "Orbit Runtime",
+    "collection": "2026-10",
+    "category": "infra",
+    "theme": "light",
+    "hero": "split",
+    "sections": [
+      "bento",
+      "quotes",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "description": "Push a branch, get an environment. Merge it, and it disappears. Roll back in one click.",
+    "preview": "./012_orbit-runtime.html",
+    "download": "./downloads/012_orbit-runtime.html",
+    "tokens": "./tokens/012_orbit-runtime.json",
+    "colors": {
+      "bg": "#f1f3ff",
+      "fg": "#24234b",
+      "accent": "#5149aa",
+      "action": "#5149aa",
+      "border": "#d0d2e2",
+      "muted": "#616181",
+      "surface": "#eaecf9",
+      "alt": "#e5e7f4"
+    }
+  },
+  {
+    "id": "013_kinfolk-crm",
+    "title": "Kinfolk CRM",
+    "collection": "2026-10",
+    "category": "crm",
+    "theme": "light",
+    "hero": "editorial",
+    "sections": [
+      "logos",
+      "stats",
+      "features",
+      "band",
+      "quotes",
+      "faq",
+      "cta"
+    ],
+    "description": "A customer record that updates itself from the tools your team already lives in.",
+    "preview": "./013_kinfolk-crm.html",
+    "download": "./downloads/013_kinfolk-crm.html",
+    "tokens": "./tokens/013_kinfolk-crm.json",
+    "colors": {
+      "bg": "#fff4ef",
+      "fg": "#442b30",
+      "accent": "#a13d57",
+      "action": "#a13d57",
+      "border": "#e1d4d0",
+      "muted": "#776265",
+      "surface": "#f8ede8",
+      "alt": "#f4e8e4"
+    }
+  },
+  {
+    "id": "014_relay-sales",
+    "title": "Relay Sales",
+    "collection": "2026-10",
+    "category": "crm",
+    "theme": "dark",
+    "hero": "centered",
+    "sections": [
+      "stats",
+      "features",
+      "bento",
+      "pricing",
+      "cta"
+    ],
+    "description": "A customer record that updates itself from the tools your team already lives in.",
+    "preview": "./014_relay-sales.html",
+    "download": "./downloads/014_relay-sales.html",
+    "tokens": "./tokens/014_relay-sales.json",
+    "colors": {
+      "bg": "#102a27",
+      "fg": "#e9fff7",
+      "accent": "#9bdba8",
+      "action": "#9bdba8",
+      "border": "#334c48",
+      "muted": "#98afa9",
+      "surface": "#1f3936",
+      "alt": "#2a4440"
+    }
+  },
+  {
+    "id": "015_threadline",
+    "title": "Threadline",
+    "collection": "2026-10",
+    "category": "crm",
+    "theme": "light",
+    "hero": "split",
+    "sections": [
+      "logos",
+      "features",
+      "alternating",
+      "tabs",
+      "showcase",
+      "quotes",
+      "pricing",
+      "cta"
+    ],
+    "description": "Pipeline hygiene that maintains itself, and forecasts that show exactly how they were built.",
+    "preview": "./015_threadline.html",
+    "download": "./downloads/015_threadline.html",
+    "tokens": "./tokens/015_threadline.json",
+    "colors": {
+      "bg": "#f4f2ff",
+      "fg": "#31294d",
+      "accent": "#7050a0",
+      "action": "#7050a0",
+      "border": "#d5d2e3",
+      "muted": "#67607e",
+      "surface": "#edebf9",
+      "alt": "#e8e6f4"
+    }
+  },
+  {
+    "id": "016_sundial",
+    "title": "Sundial",
+    "collection": "2026-10",
+    "category": "scheduling",
+    "theme": "light",
+    "hero": "centered",
+    "sections": [
+      "bento",
+      "quotes",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "description": "Share one link. Everyone sees their own clock, buffers appear automatically, nothing double-books.",
+    "preview": "./016_sundial.html",
+    "download": "./downloads/016_sundial.html",
+    "tokens": "./tokens/016_sundial.json",
+    "colors": {
+      "bg": "#fffae7",
+      "fg": "#3f321b",
+      "accent": "#95620c",
+      "action": "#95620c",
+      "border": "#e0dac6",
+      "muted": "#746953",
+      "surface": "#f8f3e0",
+      "alt": "#f3eedb"
+    }
+  },
+  {
+    "id": "017_tempo-teams",
+    "title": "Tempo Teams",
+    "collection": "2026-10",
+    "category": "scheduling",
+    "theme": "dark",
+    "hero": "display",
+    "sections": [
+      "stats",
+      "bento",
+      "tabs",
+      "showcase",
+      "quotes",
+      "pricing",
+      "cta"
+    ],
+    "description": "Availability that respects focus time, time zones and the fact that nobody wants a 4pm Friday call.",
+    "preview": "./017_tempo-teams.html",
+    "download": "./downloads/017_tempo-teams.html",
+    "tokens": "./tokens/017_tempo-teams.json",
+    "colors": {
+      "bg": "#231421",
+      "fg": "#fff1f6",
+      "accent": "#f4a3ca",
+      "action": "#f4a3ca",
+      "border": "#463743",
+      "muted": "#a799a1",
+      "surface": "#322330",
+      "alt": "#3d2f3b"
+    }
+  },
+  {
+    "id": "018_openhour",
+    "title": "Openhour",
+    "collection": "2026-10",
+    "category": "scheduling",
+    "theme": "light",
+    "hero": "split",
+    "sections": [
+      "stats",
+      "features",
+      "quotes",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "description": "Round-robin that distributes fairly, reminders on the channel each person reads, and no email threads.",
+    "preview": "./018_openhour.html",
+    "download": "./downloads/018_openhour.html",
+    "tokens": "./tokens/018_openhour.json",
+    "colors": {
+      "bg": "#eff8ff",
+      "fg": "#19364d",
+      "accent": "#276a9c",
+      "action": "#276a9c",
+      "border": "#cdd9e3",
+      "muted": "#546b7e",
+      "surface": "#e8f1f9",
+      "alt": "#e2ecf4"
+    }
+  },
+  {
+    "id": "019_watchtower",
+    "title": "Watchtower",
+    "collection": "2026-10",
+    "category": "security",
+    "theme": "dark",
+    "hero": "centered-panel",
+    "sections": [
+      "logos",
+      "stats",
+      "alternating",
+      "bento",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "description": "Policies as code, evidence gathered on schedule, and an audit package your assessor accepts.",
+    "preview": "./019_watchtower.html",
+    "download": "./downloads/019_watchtower.html",
+    "tokens": "./tokens/019_watchtower.json",
+    "colors": {
+      "bg": "#121b1a",
+      "fg": "#f0fff9",
+      "accent": "#8ed4b5",
+      "action": "#8ed4b5",
+      "border": "#363f3e",
+      "muted": "#97a4a0",
+      "surface": "#222b2a",
+      "alt": "#2d3635"
+    }
+  },
+  {
+    "id": "020_evidence-house",
+    "title": "Evidence House",
+    "collection": "2026-10",
+    "category": "security",
+    "theme": "light",
+    "hero": "editorial",
+    "sections": [
+      "logos",
+      "stats",
+      "features",
+      "bento",
+      "quotes",
+      "faq",
+      "cta"
+    ],
+    "description": "Continuous control monitoring with evidence collected automatically, so audits stop being a fire drill.",
+    "preview": "./020_evidence-house.html",
+    "download": "./downloads/020_evidence-house.html",
+    "tokens": "./tokens/020_evidence-house.json",
+    "colors": {
+      "bg": "#f4f4f0",
+      "fg": "#282d32",
+      "accent": "#4f596d",
+      "action": "#4f596d",
+      "border": "#d3d4d2",
+      "muted": "#65696b",
+      "surface": "#edede9",
+      "alt": "#e8e8e5"
+    }
+  },
+  {
+    "id": "021_safeharbor",
+    "title": "Safeharbor",
+    "collection": "2026-10",
+    "category": "security",
+    "theme": "light",
+    "hero": "centered",
+    "sections": [
+      "stats",
+      "bento",
+      "quotes",
+      "pricing",
+      "cta"
+    ],
+    "description": "Fourteen hundred controls checked continuously — not once a year, the week before the audit.",
+    "preview": "./021_safeharbor.html",
+    "download": "./downloads/021_safeharbor.html",
+    "tokens": "./tokens/021_safeharbor.json",
+    "colors": {
+      "bg": "#eaf1fa",
+      "fg": "#1d314c",
+      "accent": "#315c96",
+      "action": "#315c96",
+      "border": "#c9d2de",
+      "muted": "#55667c",
+      "surface": "#e3eaf4",
+      "alt": "#dee5f0"
+    }
+  },
+  {
+    "id": "022_folio-press",
+    "title": "Folio Press",
+    "collection": "2026-10",
+    "category": "content",
+    "theme": "light",
+    "hero": "editorial",
+    "sections": [
+      "stats",
+      "bento",
+      "tabs",
+      "quotes",
+      "faq",
+      "cta"
+    ],
+    "description": "A structured editor and a delivery API, so content moves without a deploy or a developer.",
+    "preview": "./022_folio-press.html",
+    "download": "./downloads/022_folio-press.html",
+    "tokens": "./tokens/022_folio-press.json",
+    "colors": {
+      "bg": "#f7f0e7",
+      "fg": "#33251e",
+      "accent": "#965331",
+      "action": "#965331",
+      "border": "#d8d0c7",
+      "muted": "#6e625a",
+      "surface": "#f0e9e0",
+      "alt": "#ebe4db"
+    }
+  },
+  {
+    "id": "023_dispatch-cms",
+    "title": "Dispatch CMS",
+    "collection": "2026-10",
+    "category": "content",
+    "theme": "dark",
+    "hero": "display",
+    "sections": [
+      "stats",
+      "features",
+      "bento",
+      "showcase",
+      "band",
+      "pricing",
+      "cta"
+    ],
+    "description": "Blocks with real schemas, workflows with real owners, and publishing that never needs engineering.",
+    "preview": "./023_dispatch-cms.html",
+    "download": "./downloads/023_dispatch-cms.html",
+    "tokens": "./tokens/023_dispatch-cms.json",
+    "colors": {
+      "bg": "#171924",
+      "fg": "#fff5ed",
+      "accent": "#f9ad74",
+      "action": "#f9ad74",
+      "border": "#3c3c44",
+      "muted": "#a29d9d",
+      "surface": "#272832",
+      "alt": "#33333c"
+    }
+  },
+  {
+    "id": "024_storyfield",
+    "title": "Storyfield",
+    "collection": "2026-10",
+    "category": "content",
+    "theme": "light",
+    "hero": "split",
+    "sections": [
+      "bento",
+      "tabs",
+      "showcase",
+      "quotes",
+      "pricing",
+      "cta"
+    ],
+    "description": "Localize per field, preview the real page, and invalidate the edge cache the moment you publish.",
+    "preview": "./024_storyfield.html",
+    "download": "./downloads/024_storyfield.html",
+    "tokens": "./tokens/024_storyfield.json",
+    "colors": {
+      "bg": "#f3f6e9",
+      "fg": "#283720",
+      "accent": "#536e32",
+      "action": "#536e32",
+      "border": "#d3d7c9",
+      "muted": "#606c57",
+      "surface": "#ecefe2",
+      "alt": "#e7ebdd"
+    }
+  }
+]
