@@ -1,20 +1,14 @@
-# Make the collection available on TKTechnology
+# TKTechnology integration
 
-`site/` is the complete static deployment artifact. There is no runtime build, remote font, API or image dependency. Deploy the contents under a directory such as `/templates/collection-02/`; relative gallery, preview, download and token URLs work under that prefix.
+Deploy the contents of `site/` under a static path such as `/templates/collection-02/`. Keep `assets/`, `tokens/`, and `downloads/` beside the gallery. JPEG files must be served as `image/jpeg`.
 
-## Catalog integration
-
-Fetch `/templates/collection-02/catalog.json` from your TKTechnology gallery. Each record includes `id`, `title`, `collection`, `category`, `theme`, `hero`, `sections`, `description`, `preview`, `download`, `tokens` and `colors`.
-
-Resolve relative links against the **catalog URL**, not the parent page:
+`catalog.json` includes each fictional title, reference title/source URL, category, theme, hero and photo layout, sections, preview/download/token paths, colors and image provenance. Resolve relative paths against the catalog URL:
 
 ```js
 const catalogURL = new URL('/templates/collection-02/catalog.json', location.origin);
-const templates = await fetch(catalogURL).then(response => {
-  if (!response.ok) throw new Error('Template catalog unavailable');
-  return response.json();
-});
-const cards = templates.map(template => ({
+const response = await fetch(catalogURL);
+if (!response.ok) throw new Error('Template catalog unavailable');
+const templates = (await response.json()).map(template => ({
   ...template,
   previewURL: new URL(template.preview, catalogURL).href,
   downloadURL: new URL(template.download, catalogURL).href,
@@ -22,15 +16,8 @@ const cards = templates.map(template => ({
 }));
 ```
 
-Use `collection + '/' + id` as the key if merging multiple catalogs. Same-origin links support the HTML `download` attribute; for cross-origin download hosting, configure `Content-Disposition: attachment` on the download files.
+Use `collection + '/' + id` when merging catalogs. Same-origin links support HTML downloads; cross-origin hosting may need `Content-Disposition: attachment`.
 
-## Customize and publish
+Each standalone download embeds its photo and styles/scripts, so copying that one HTML file is sufficient. Preview pages instead share the local photo assets. Customize the fictional text and connect the demo form before using a template for a real business. The footer retains design/photo attribution links; asset provenance is also in `assets/credits.json`.
 
-1. Copy the selected standalone HTML download into the client project.
-2. Replace the fictional branding, illustrative claims, pricing and testimonials.
-3. Connect the demo contact form to the intended submission service; update its status messaging.
-4. Add real policy/contact destinations if required for that business.
-5. Set TKTechnology's template distribution terms.
-6. Deploy and review the business-specific version.
-
-The local preview does not publish to the TKTechnology production domain. This repository supplies the collection and catalog; integration into a separate production repository needs that site's source or hosting configuration.
+The production TKTechnology website is not part of this checkout. This collection supplies the deployment files and catalog; the running WireGuard preview does not publish to the production domain.

@@ -1,0 +1,110 @@
+{
+  "title": "Afterhours",
+  "referenceTitle": "Bose",
+  "sourceUrl": "https://styles.refero.design/style/ac53627e-5738-4121-8f5d-05e4d8475a5b",
+  "theme": "light",
+  "semantic": {
+    "bg": "#ffffff",
+    "fg": "#000000",
+    "accent": "#005bff",
+    "action": "#005bff",
+    "border": "#d6d6d6",
+    "muted": "#6c6c6c",
+    "surface": "#f6f6f6",
+    "alt": "#f0f0f0"
+  },
+  "fonts": {
+    "display": "'Bose Headline', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "body": "'Bose Headline', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "names": [
+      "bose-headline",
+      "bose-text"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Soprano White",
+      "hex": "#ffffff",
+      "token": "--color-soprano-white",
+      "role": "Page canvas, header and footer surfaces, image-overlay text, bordered purchase controls"
+    },
+    {
+      "name": "Studio Mist",
+      "hex": "#f8f8f8",
+      "token": "--color-studio-mist",
+      "role": "Product-tile surfaces, category controls, search field, and pale action surfaces"
+    },
+    {
+      "name": "Warm Porcelain",
+      "hex": "#f1efee",
+      "token": "--color-warm-porcelain",
+      "role": "Quiet secondary navigation and transitional surface bands"
+    },
+    {
+      "name": "Bass Black",
+      "hex": "#131317",
+      "token": "--color-bass-black",
+      "role": "Primary text, navigation, icons, hairline borders, dark purchase fills, and inverse badges"
+    },
+    {
+      "name": "Countertenor Gray",
+      "hex": "#b4bec7",
+      "token": "--color-countertenor-gray",
+      "role": "Announcement-strip field, subdued controls, and inactive control treatment"
+    },
+    {
+      "name": "Steel Gray",
+      "hex": "#949494",
+      "token": "--color-steel-gray",
+      "role": "Fine separators and low-emphasis form borders"
+    },
+    {
+      "name": "Charcoal Helper",
+      "hex": "#40464b",
+      "token": "--color-charcoal-helper",
+      "role": "Footer links, supporting links, and subdued utility text"
+    },
+    {
+      "name": "Pure Black",
+      "hex": "#000000",
+      "token": "--color-pure-black",
+      "role": "Search and utility icon strokes, input text, and high-contrast micro-details"
+    },
+    {
+      "name": "Quiet Placeholder",
+      "hex": "#545454",
+      "token": "--color-quiet-placeholder",
+      "role": "Search placeholder and inactive input copy"
+    },
+    {
+      "name": "Chord Blue",
+      "hex": "#005bff",
+      "token": "--color-chord-blue",
+      "role": "Inline learning links — a single electric-blue interruption in an otherwise monochrome retail interface"
+    }
+  ],
+  "plan": {
+    "hero": "split",
+    "nav": "split",
+    "sections": [
+      "logos",
+      "stats",
+      "features",
+      "tabs",
+      "quotes",
+      "pricing",
+      "cta"
+    ],
+    "footer": "big",
+    "signals": [
+      "split",
+      "fullBleed",
+      "stats"
+    ],
+    "photoLayout": "immersive"
+  },
+  "layoutText": "The page is a white, centered retail composition framed by a slim announcement strip and a two-sided public header with the logo held at center. The first screen is a full-bleed photographic campaign panel with copy anchored in the lower left; subsequent content returns to broad white breathing room and square product-carousel tiles. Promotional stories repeat the same image-led pattern at a contained large scale, using side-by-side fashion photography with lower-left white copy rather than floating cards. Product browsing uses a four-column rail at the captured desktop view, with small pagination dots and circular next/previous controls below; footer content returns to a dense white utility zone.",
+  "imageryText": "Photography is the dominant expressive layer: fashion-campaign portraits and close product-worn scenes are tightly cropped, color-graded toward muted coastal neutrals or saturated studio backdrops, and used as large rectangular story panels. Hero images run edge to edge with copy directly over the darker lower portion; contained campaign panels use split-image compositions with no decorative frame. Product imagery is isolated against pale neutral tile backgrounds, with the object presented as the content rather than surrounded by illustration. Utility icons are thin, monochrome black outlines; imagery occupies more visual space than text in campaign sections, while product rails become information-dense below the image.",
+  "rules": "### Do\n- Use Soprano White #ffffff as the default page canvas and Studio Mist #f8f8f8 for product-card fields.\n- Set campaign display headlines in Bose Headline weight 900: 60px/53px with 1.2px tracking, or 96px/84px with 1.44px tracking.\n- Set public navigation in uppercase Bose Text 15px/18px weight 400.\n- Use Bass Black #131317 for primary text, icon strokes, 1px action borders, dark fills, and inverse badges.\n- Use 2px corners for rectangular purchase controls and 88px or 9999px only for status badges and pill fields.\n- Give product-card purchase controls 12px vertical and 24px horizontal padding.\n- Use Chord Blue #005bff only for inline learning links; keep commerce controls monochrome.\n\n### Don't\n- Do not use rounded card corners; product and campaign panels use 0px card radii.\n- Do not add drop shadows to cards, headers, search, or buttons; separate layers with #ffffff rules and surface changes.\n- Do not replace Bose Headline with a wide geometric sans or use it below 32px.\n- Do not make all buttons dark-filled; use Soprano White #ffffff bordered controls over imagery and product-card surfaces.\n- Do not use Chord Blue #005bff as a filled action background.\n- Do not introduce gradients into page surfaces or controls.\n- Do not use Steel Gray #949494 for body copy; reserve it for fine borders and inactive outlines.",
+  "adaptation": "Fictional copy and credited stock hero photography; no source brand logos or proprietary assets."
+}

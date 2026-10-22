@@ -1,0 +1,109 @@
+{
+  "title": "Daywell",
+  "referenceTitle": "Bevel",
+  "sourceUrl": "https://styles.refero.design/style/c0717d1a-b446-4166-a445-6497fe287fea",
+  "theme": "light",
+  "semantic": {
+    "bg": "#ffffff",
+    "fg": "#1f2025",
+    "accent": "#ffab94",
+    "action": "#ffab94",
+    "border": "#dcdcdc",
+    "muted": "#6d6e71",
+    "surface": "#f7f7f7",
+    "alt": "#f2f2f2"
+  },
+  "fonts": {
+    "display": "'-apple-system, BlinkMacSystemFont, Inter, \"Segoe UI\", sans-serif', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "body": "'-apple-system, BlinkMacSystemFont, Inter, \"Segoe UI\", sans-serif', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "names": [
+      "apple-system-blinkmacsystemfont-inter-segoe-ui-sans-serif"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Paper White",
+      "hex": "#ffffff",
+      "token": "--color-paper-white",
+      "role": "Page backgrounds, navigation surfaces, footer backgrounds, and open whitespace"
+    },
+    {
+      "name": "Charcoal",
+      "hex": "#1f2025",
+      "token": "--color-charcoal",
+      "role": "Filled download controls, dark surface blocks, logos, and monochrome iconography"
+    },
+    {
+      "name": "Ink",
+      "hex": "#222326",
+      "token": "--color-ink",
+      "role": "Display headings, section headings, feature titles, and primary text"
+    },
+    {
+      "name": "Cloud Card",
+      "hex": "#ebf0f8",
+      "token": "--color-cloud-card",
+      "role": "Feature-card surfaces, light icon fills, and text inside Charcoal download controls"
+    },
+    {
+      "name": "Body Gray",
+      "hex": "#747679",
+      "token": "--color-body-gray",
+      "role": "Body copy, muted navigation links, helper text, and secondary labels"
+    },
+    {
+      "name": "Signal Gold",
+      "hex": "#ffca00",
+      "token": "--color-signal-gold",
+      "role": "Rating stars and small positive health-data indicators"
+    },
+    {
+      "name": "Coral Signal",
+      "hex": "#ffab94",
+      "token": "--color-coral-signal",
+      "role": "Warm metric accents and lower-edge washes in feature visualizations"
+    },
+    {
+      "name": "Recovery Green",
+      "hex": "#31ce01",
+      "token": "--color-recovery-green",
+      "role": "Recovery rings and green-tinted metric visualizations"
+    },
+    {
+      "name": "Metric Blue",
+      "hex": "#415eee",
+      "token": "--color-metric-blue",
+      "role": "Circular metric indicators and blue gradient treatments in product visuals"
+    },
+    {
+      "name": "Sleep Lilac",
+      "hex": "#b9a6ff",
+      "token": "--color-sleep-lilac",
+      "role": "Sleep-oriented metric rings and soft violet visual accents"
+    }
+  ],
+  "plan": {
+    "hero": "centered",
+    "nav": "centered",
+    "sections": [
+      "stats",
+      "features",
+      "band",
+      "quotes",
+      "faq",
+      "cta"
+    ],
+    "footer": "big",
+    "signals": [
+      "centered",
+      "fullBleed",
+      "stats",
+      "band"
+    ],
+    "photoLayout": "framed"
+  },
+  "layoutText": "The page is a vertically scrolling, center-aligned public landing page on Paper White, opening with a large rounded full-width hero field rather than a boxed content panel. A floating capsule navigation bar sits over the hero and remains visually available as the page moves through product imagery. The first screen centers a large two-line headline, muted supporting copy, a pill download control, compact rating proof, and overlapping phone-and-watch renders over a pale sky-to-warm gradient. Subsequent sections use broad white bands with centered compatibility logos, award proof, and large centered display statements; a horizontal community-media strip breaks the text rhythm with edge-faded portrait tiles. The lower content shifts to centered introduction copy followed by a three-column row of pale-blue feature cards, creating spacious 80px section intervals rather than dense dashboard stacking.",
+  "imageryText": "Product-render imagery leads the page: a realistic iPhone dashboard and Apple Watch overlap within the hero, with soft reflections and raw device edges rather than flat illustrations. Community proof appears as a horizontal sequence of portrait social posts, candid fitness images, food captures, and app screenshots, each rounded at 16px and softly lifted from the white canvas. Product visuals use small multicolor data rings and metric chips against mostly pale UI surfaces; the site shell itself remains almost entirely monochrome. Partner logos are black wordmarks, while award laurels are faint gray editorial marks. The composition is text-dominant between media moments, with imagery used as product evidence and member proof rather than decoration.",
+  "rules": "### Do\n- Use Paper White (#ffffff) as the default canvas and Cloud Card (#ebf0f8) for large feature surfaces.\n- Set display headings in Ink (#222326), weight 600, with -0.03em tracking at the 40px, 64px, and 80px steps.\n- Use 80px vertical section gaps and 32px padding inside Cloud Feature Cards.\n- Use 128px radius, 8px 16px padding, Charcoal (#1f2025) fill, and Cloud Card (#ebf0f8) text for public download buttons.\n- Use 24px or 32px card radii and 16px-24px radii for product imagery.\n- Keep Body Gray (#747679) supporting copy at 24px/31.2px, weight 400.\n- Restrict Recovery Green (#31ce01), Metric Blue (#415eee), Sleep Lilac (#b9a6ff), and Coral Signal (#ffab94) to health-data visuals and soft washes.\n\n### Don't\n- Do not use saturated metric colors as universal page backgrounds or filled public conversion buttons.\n- Do not set large headings above 600 weight or remove their -0.03em tracking.\n- Do not use square buttons; public download controls require a 128px radius.\n- Do not add visible borders to Cloud Feature Cards; use #ebf0f8 surfaces with no border and no shadow.\n- Do not replace the 80px section rhythm with dense 24px-40px stacked sections.\n- Do not use heavy drop shadows on cards; reserve rgba(0, 0, 0, 0.25) 0px 0px 16px -8px for floating imagery.\n- Do not turn the supporting Body Gray (#747679) copy into black or weight 600 text.",
+  "adaptation": "Fictional copy and credited stock hero photography; no source brand logos or proprietary assets."
+}

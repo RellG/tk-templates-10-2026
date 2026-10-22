@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('./site/',import.meta.url));
 const port=Number(process.argv[2]||4174);
 const host=process.argv[3]||'127.0.0.1';
-const types={'.html':'text/html; charset=utf-8','.json':'application/json; charset=utf-8'};
+const types={'.jpg':'image/jpeg','.png':'image/png','.html':'text/html; charset=utf-8','.json':'application/json; charset=utf-8'};
 http.createServer(async(req,res)=>{
   try{
     const name=decodeURIComponent(new URL(req.url,'http://localhost').pathname);

@@ -1,0 +1,123 @@
+{
+  "title": "Ledger House",
+  "referenceTitle": "Modern Treasury",
+  "sourceUrl": "https://styles.refero.design/style/2e9b3dcb-f937-488d-891c-351c7366188f",
+  "theme": "light",
+  "semantic": {
+    "bg": "#ffffff",
+    "fg": "#151515",
+    "accent": "#151515",
+    "action": "#151515",
+    "border": "#dadada",
+    "muted": "#6d6d6d",
+    "surface": "#f7f7f7",
+    "alt": "#f1f1f1"
+  },
+  "fonts": {
+    "display": "'mt-neue-display', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "body": "'mt-neue-display', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "names": [
+      "mt-neue-display",
+      "mt-neue-text",
+      "mt-sans",
+      "mt-mono"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Paper",
+      "hex": "#ffffff",
+      "token": "--color-paper",
+      "role": "Page canvas, navigation surface, inputs, light cards, and high-contrast text on dark surfaces"
+    },
+    {
+      "name": "Ink",
+      "hex": "#151515",
+      "token": "--color-ink",
+      "role": "Display text, headings, filled public buttons, dark rules, and inline control outlines"
+    },
+    {
+      "name": "Graphite",
+      "hex": "#424242",
+      "token": "--color-graphite",
+      "role": "Secondary body copy and dense explanatory text"
+    },
+    {
+      "name": "Steel",
+      "hex": "#706f6f",
+      "token": "--color-steel",
+      "role": "Muted metadata and low-emphasis supporting copy"
+    },
+    {
+      "name": "Rule Gray",
+      "hex": "#dcdcdc",
+      "token": "--color-rule-gray",
+      "role": "Hairline dividers, grid rules, and low-emphasis structural borders"
+    },
+    {
+      "name": "Edge Gray",
+      "hex": "#cbcac8",
+      "token": "--color-edge-gray",
+      "role": "Slightly stronger container and content-section borders"
+    },
+    {
+      "name": "Ice Panel",
+      "hex": "#f0f8f9",
+      "token": "--color-ice-panel",
+      "role": "Contained story cards, problem/solution panels, and cool product-demonstration surfaces"
+    },
+    {
+      "name": "Forest Ledger",
+      "hex": "#0c221d",
+      "token": "--color-forest-ledger",
+      "role": "Footer and full-width closing surfaces"
+    },
+    {
+      "name": "Plum Ledger",
+      "hex": "#543b4e",
+      "token": "--color-plum-ledger",
+      "role": "Dark editorial/product cards and contrasting feature blocks"
+    },
+    {
+      "name": "Network Green",
+      "hex": "#29735c",
+      "token": "--color-network-green",
+      "role": "Logo mark, payment-rail connector lines, and small solution markers — a restrained institutional green that makes the diagrams feel like live infrastructure"
+    },
+    {
+      "name": "Mint Subscription",
+      "hex": "#bae0cf",
+      "token": "--color-mint-subscription",
+      "role": "Newsletter subscribe fill and bordered mint controls — the lone pale color action within the dark footer"
+    },
+    {
+      "name": "Ledger Brown",
+      "hex": "#7b5953",
+      "token": "--color-ledger-brown",
+      "role": "Monospace problem labels and compact technical annotations"
+    }
+  ],
+  "plan": {
+    "hero": "split",
+    "nav": "split",
+    "sections": [
+      "features",
+      "alternating",
+      "tabs",
+      "band",
+      "quotes",
+      "pricing",
+      "cta"
+    ],
+    "footer": "minimal",
+    "signals": [
+      "split",
+      "band"
+    ],
+    "photoLayout": "framed"
+  },
+  "layoutText": "The site uses a centered content frame up to 1200px within a dominant Paper #ffffff canvas, topped by a slim horizontal navigation bar. The hero is a centered text stack with a large display heading, narrow supporting paragraph, dark conversion button, and a broad technical payment-rail diagram extending beneath it over faint grid rules. Content progresses through spacious white bands and contained Ice Panel #f0f8f9 blocks, including two-column product-story compositions with product artwork on one side and text on the other; customer proof appears as a wide pale card with compact carousel arrows. The page ends with a full-width Forest Ledger #0c221d footer: newsletter row first, divider second, then a six-column sitemap.",
+  "imageryText": "Visuals are text-dominant product diagrams and contained interface snapshots rather than lifestyle photography. The hero uses a faint graph-paper field with thin gray and green payment-routing lines, small rectangular monospace rail labels, and a centered dark logo node; it occupies a wide horizontal field below the copy. Product UI examples sit inside Ice Panel #f0f8f9 cards with 8px corners, while dark plum cards create denser product contrast. Icons are small, mostly monochrome utility marks; the green logo and network strokes are the only repeated colored graphic treatment.",
+  "rules": "### Do\n- Use Paper #ffffff as the dominant canvas and Rule Gray #dcdcdc for 1px structural rules and faint grid lines.\n- Set hero displays in mt-neue-display at 71px/450 with 78.1px line-height; use mt-neue-display at 47px/450 for major section headings.\n- Use mt-sans body copy at 16px/360 with 24px line-height and Graphite #424242 or rgba(21, 21, 21, 0.8).\n- Keep public dark buttons at Ink #151515 with Paper #ffffff text, 2px radius, and 6px 12px or 8px 16px padding.\n- Use 48px section gaps, 24px card padding, and 8px intra-component gaps on the 4px spacing grid.\n- Reserve Network Green #29735c for logo marks, connector paths, and small infrastructure accents.\n- Close broad white pages with a Forest Ledger #0c221d footer using Paper headings and 60% white sitemap links.\n\n### Don't\n- Do not use border radii larger than 8px for cards or larger than 4px for rectangular controls.\n- Do not apply drop shadows to Ice Panel #f0f8f9 or Plum Ledger #543b4e cards.\n- Do not use Mint Subscription #bae0cf as the universal public button fill; confine it to newsletter-style footer controls.\n- Do not replace the pale grid-and-connector hero visual with floating dashboard tiles or gradient blobs.\n- Do not set display headlines in 600 or 700 weights; keep mt-neue-display at 450.\n- Do not color ordinary body copy with Network Green #29735c or Ledger Brown #7b5953.\n- Do not round newsletter inputs; keep their radius at 0px.",
+  "adaptation": "Fictional copy and credited stock hero photography; no source brand logos or proprietary assets."
+}

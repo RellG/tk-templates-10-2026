@@ -1,0 +1,143 @@
+{
+  "title": "Counter",
+  "referenceTitle": "Mollie",
+  "sourceUrl": "https://styles.refero.design/style/73ec75d6-edec-4ed2-bc09-debb261b6ee0",
+  "theme": "light",
+  "semantic": {
+    "bg": "#f7f4f1",
+    "fg": "#000000",
+    "accent": "#3b281d",
+    "action": "#3b281d",
+    "border": "#cfcdca",
+    "muted": "#636260",
+    "surface": "#eeebe9",
+    "alt": "#e8e5e3"
+  },
+  "fonts": {
+    "display": "'sans-serif', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "body": "'sans-serif', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "names": [
+      "sans-serif",
+      "inter-variable",
+      "inter",
+      "ibm-plex-mono",
+      "adamina",
+      "inter-tight"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Paper",
+      "hex": "#ffffff",
+      "token": "--color-paper",
+      "role": "Page backgrounds, navigation, text-on-dark, and light button surfaces"
+    },
+    {
+      "name": "Ink",
+      "hex": "#000000",
+      "token": "--color-ink",
+      "role": "Display headings, navigation, body copy, icons, dark media panels, and hairline graphic details"
+    },
+    {
+      "name": "Near Black",
+      "hex": "#111111",
+      "token": "--color-near-black",
+      "role": "Secondary dark text and headings where pure Ink is not used"
+    },
+    {
+      "name": "Quiet Graphite",
+      "hex": "#595959",
+      "token": "--color-quiet-graphite",
+      "role": "Supporting body copy, explanatory text, and subdued interface labels"
+    },
+    {
+      "name": "Soft Gray",
+      "hex": "#919191",
+      "token": "--color-soft-gray",
+      "role": "Muted metadata, inactive supporting text, and low-emphasis labels"
+    },
+    {
+      "name": "Oat Surface",
+      "hex": "#f7f4f1",
+      "token": "--color-oat-surface",
+      "role": "Feature-card surfaces, pale pill buttons, understated separators, and surface outlines"
+    },
+    {
+      "name": "Ledger Brown",
+      "hex": "#3b281d",
+      "token": "--color-ledger-brown",
+      "role": "Filled pill buttons and dark navigation controls — the brown-black fill keeps conversion controls tactile rather than corporate-blue"
+    },
+    {
+      "name": "Espresso Panel",
+      "hex": "#211006",
+      "token": "--color-espresso-panel",
+      "role": "Dark product-demo surfaces, data-led card backgrounds, and high-contrast visual blocks"
+    },
+    {
+      "name": "Copper Link",
+      "hex": "#e07122",
+      "token": "--color-copper-link",
+      "role": "Inline product-card links and compact interface highlights — a warm cue that reads as commerce material rather than a universal brand wash"
+    },
+    {
+      "name": "Terracotta Disc",
+      "hex": "#d66733",
+      "token": "--color-terracotta-disc",
+      "role": "Large circular decorative card accents and isolated graphic moments"
+    },
+    {
+      "name": "Active Green",
+      "hex": "#1e681d",
+      "token": "--color-active-green",
+      "role": "Green text accent for links, tags, and emphasized short phrases. Use as a supporting accent, not as a status color"
+    },
+    {
+      "name": "Active Green Surface",
+      "hex": "#288a26",
+      "token": "--color-active-green-surface",
+      "role": "Green text accent for links, tags, and emphasized short phrases. Use as a supporting accent, not as a status color"
+    },
+    {
+      "name": "Pending Ochre",
+      "hex": "#8b6900",
+      "token": "--color-pending-ochre",
+      "role": "Yellow text accent for links, tags, and emphasized short phrases. Use as a supporting accent, not as a status color"
+    },
+    {
+      "name": "Expiry Red",
+      "hex": "#99001c",
+      "token": "--color-expiry-red",
+      "role": "Red text accent for links, tags, and emphasized short phrases. Use as a supporting accent, not as a status color"
+    }
+  ],
+  "plan": {
+    "hero": "display",
+    "nav": "rule",
+    "sections": [
+      "logos",
+      "stats",
+      "features",
+      "tabs",
+      "showcase",
+      "band",
+      "quotes",
+      "cta"
+    ],
+    "footer": "rule",
+    "signals": [
+      "split",
+      "fullBleed",
+      "editorial",
+      "oversized",
+      "logos",
+      "stats",
+      "quotes"
+    ],
+    "photoLayout": "framed"
+  },
+  "layoutText": "The page is a white, full-bleed editorial composition with a fixed-height top navigation bar and generous unruled white space around the opening message. The hero uses a wide text composition: an oversized left-aligned headline, a narrower explanatory and conversion block to the right, then a broad contained payment photograph with 16px corners. Product content moves through a dark horizontal media selector, a centered customer-logo strip, and a two-row five-column payment-capability grid before splitting into paired cream feature cards. Customer stories use a wide three-panel horizontal carousel with image-first cards and centered quote text below, followed by large dark product-media sections; the footer returns to a dense multi-link structure.",
+  "imageryText": "Photography is central and product-adjacent: hands using phones, countertop terminals, retail environments, and customer scenes are shown as warm, natural-color crops rather than stock-office portraits. Images are wide, contained, and softly rounded at 16px, with occasional dark translucent payment overlays or circular arrow controls placed directly on the image. The page is text-led between media moments, while customer logos and sparse monochrome line icons provide the non-photographic visual layer. Dark product demonstrations use realistic interface fragments, data, and device screens as explanatory content rather than abstract fintech decoration.",
+  "rules": "### Do\n- Use Paper #ffffff as the dominant canvas and reserve Oat Surface #f7f4f1 for contained cards and secondary pill controls.\n- Set display headlines in Inter Variable 82px/400, 82px line-height, and -2.4px tracking.\n- Use IBM Plex Mono uppercase labels at 13px/500 with 16.9px line-height above product and media content.\n- Use Ledger Brown #3b281d only for filled public pill buttons with 9999px radius and 16px 24px padding.\n- Give product cards and media frames a 16px radius; use 24px only for larger image and media treatments.\n- Use Copper Link #e07122 for inline product-card links and small commerce-oriented highlights.\n- Keep the default page rhythm on the 4px base unit, using 10px element gaps and 32px section gaps.\n\n### Don't\n- Do not use blue #0040ff or browser-default #0000ee as a brand or button color.\n- Do not turn the Ledger Brown #3b281d filled treatment into a square button; public conversion controls use 9999px radius.\n- Do not use heavy outer drop shadows on cards; cards use no shadow and rely on Oat Surface #f7f4f1, borders, and rounded media.\n- Do not use bold 600-700 weights for the 82px display role; retain Inter Variable 400.\n- Do not replace IBM Plex Mono uppercase labels with Inter body text.\n- Do not apply Terracotta Disc #d66733 as a broad page background or universal action color.\n- Do not use status colors outside compact payment and account-state contexts.",
+  "adaptation": "Fictional copy and credited stock hero photography; no source brand logos or proprietary assets."
+}

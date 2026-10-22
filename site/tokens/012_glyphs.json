@@ -1,0 +1,138 @@
+{
+  "title": "Letterform",
+  "referenceTitle": "Glyphs",
+  "sourceUrl": "https://styles.refero.design/style/67bb82e2-d81c-4ead-a882-a8a2534eb221",
+  "theme": "light",
+  "semantic": {
+    "bg": "#ffffff",
+    "fg": "#000000",
+    "accent": "#604900",
+    "action": "#604900",
+    "border": "#d6d6d6",
+    "muted": "#6c6c6c",
+    "surface": "#f6f6f6",
+    "alt": "#f0f0f0"
+  },
+  "fonts": {
+    "display": "'Symbol Helper', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "body": "'Symbol Helper', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "names": [
+      "symbol-helper"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Paper",
+      "hex": "#ffffff",
+      "token": "--color-paper",
+      "role": "Page canvas, navigation surface, product-canvas interiors, and reversed text on dark feature panels"
+    },
+    {
+      "name": "Blush Paper",
+      "hex": "#f7eef1",
+      "token": "--color-blush-paper",
+      "role": "Pale tinted card surface and soft alternate content band"
+    },
+    {
+      "name": "Control Gray",
+      "hex": "#eeeeee",
+      "token": "--color-control-gray",
+      "role": "Neutral utility-control backgrounds"
+    },
+    {
+      "name": "Mint Wash",
+      "hex": "#e9f3eb",
+      "token": "--color-mint-wash",
+      "role": "Soft green-tinted list and skip-link surface"
+    },
+    {
+      "name": "Ink",
+      "hex": "#000000",
+      "token": "--color-ink",
+      "role": "Black utility text, compact headings, and neutral controls"
+    },
+    {
+      "name": "Cherry Ink",
+      "hex": "#42242e",
+      "token": "--color-cherry-ink",
+      "role": "Deep plum feature-panel surface, large editorial headings, borders, and orange-on-cherry controls"
+    },
+    {
+      "name": "Workshop Green",
+      "hex": "#1e3219",
+      "token": "--color-workshop-green",
+      "role": "Default editorial text, navigation text, logo mark, and linework over the white canvas"
+    },
+    {
+      "name": "Acid Glyph",
+      "hex": "#9aff00",
+      "token": "--color-acid-glyph",
+      "role": "Purchase and conversion surfaces, highlighted end-cap sections, and active outlined-action borders — the fluorescent green punctuates otherwise paper-and-ink layouts"
+    },
+    {
+      "name": "Signal Orange",
+      "hex": "#f66a06",
+      "token": "--color-signal-orange",
+      "role": "Secondary feature panels, tutorial links, oversized decorative glyphs, and circular action controls against Cherry Ink"
+    },
+    {
+      "name": "Mustard Proof",
+      "hex": "#f2ad0d",
+      "token": "--color-mustard-proof",
+      "role": "Warm feature-card surface and colored editorial emphasis"
+    },
+    {
+      "name": "Cyan Blueprint",
+      "hex": "#1ad1e6",
+      "token": "--color-cyan-blueprint",
+      "role": "Feature-card surface, product-canvas outlines, and vector-tool overlays; its technical blue makes the editor imagery read as live workspace material"
+    },
+    {
+      "name": "Ochre Ink",
+      "hex": "#604900",
+      "token": "--color-ochre-ink",
+      "role": "Text and small labels on lime and cyan feature surfaces"
+    },
+    {
+      "name": "Burnt Ink",
+      "hex": "#4d2f1a",
+      "token": "--color-burnt-ink",
+      "role": "Text and borders on mustard feature surfaces"
+    },
+    {
+      "name": "Blueprint Ink",
+      "hex": "#243f42",
+      "token": "--color-blueprint-ink",
+      "role": "Dark technical text within cyan-oriented editor and list content"
+    }
+  ],
+  "plan": {
+    "hero": "display",
+    "nav": "rule",
+    "sections": [
+      "stats",
+      "features",
+      "alternating",
+      "tabs",
+      "showcase",
+      "band",
+      "quotes",
+      "cta"
+    ],
+    "footer": "rule",
+    "signals": [
+      "editorial",
+      "oversized",
+      "stats",
+      "quotes",
+      "showcase",
+      "band",
+      "screenshot"
+    ],
+    "photoLayout": "collage"
+  },
+  "layoutText": "The page is a wide Paper canvas with a compact top header: logo at left, small public navigation grouped at right, followed by a fluorescent purchase block and language chip. The opening composition is left-aligned editorial display type above or against an oversized cropped letterform and full-width vector-editing artwork. Content moves in spacious 40px beats between contained product canvases, overlapping annotation cards, and broad color blocks; feature callouts alternate cyan, mustard, and cherry rather than forming a uniform card grid. A lime testimonial carousel uses a central quote panel bracketed by monochrome portrait crops, while late-page community and purchase sections become larger saturated fields. Navigation remains a top bar; product screenshots are framed, layered objects rather than separate right-column illustrations.",
+  "imageryText": "Visuals are dominated by contained font-editor screenshots and abstract type-design process graphics: Bézier paths, node circles, pen handles, rulers, small toolbars, and oversized translucent glyph outlines. These diagrams often fill a large framed canvas and are partially covered by flat 10px-radius cyan, mustard, or cherry annotation cards. Testimonial imagery uses high-contrast black-and-white close portrait crops with raw rectangular edges around a lime quote block. The page is text-led rather than image-heavy, but product imagery occupies large horizontal bands as explanatory proof; icons are sparse, monochrome technical marks rather than decorative illustration.",
+  "rules": "### Do\n- Use Paper (#ffffff) as the dominant page canvas and reserve colored surfaces for self-contained feature moments.\n- Set display headlines in Symbol Helper 400 at 80px/80px in Workshop Green (#1e3219).\n- Use Symbol Helper 400 at 14px/20.02px for public navigation and 18px/25.2px for text links.\n- Apply 10px radius to feature cards and outlined product canvases; apply 5px radius to rectangular buttons.\n- Build colored feature cards with 36px top and 40px bottom padding, using the documented 40px/99.896px asymmetric side padding.\n- Use Acid Glyph (#9aff00) for filled purchase surfaces and retain Workshop Green (#1e3219) text.\n- Keep primary layout gaps at 40px between content groups and 20px between related controls or text elements.\n\n### Don't\n- Do not introduce bold or semibold text; keep Symbol Helper at weight 400 and establish hierarchy through the 14px–480px scale.\n- Do not round rectangular public actions into pills; reserve 9999px radius for language chips and similar compact selectors.\n- Do not use drop shadows on cards, feature panels, or product frames.\n- Do not replace Cyan Blueprint (#1ad1e6) product outlines with neutral gray borders.\n- Do not make Mustard Proof (#f2ad0d), Cyan Blueprint (#1ad1e6), or Signal Orange (#f66a06) the default purchase fill; use Acid Glyph (#9aff00) for that role.\n- Do not hide all vector nodes, handles, rulers, and interface chrome in product imagery; exposed construction is part of the visual language.\n- Do not use gradients; color changes occur as flat, sharply bounded fields.",
+  "adaptation": "Fictional copy and credited stock hero photography; no source brand logos or proprietary assets."
+}

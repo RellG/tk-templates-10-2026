@@ -1,30 +1,28 @@
-# Round-two build plan
+# Collection 02 — same pipeline, new source references
 
-## Recovered direction
+## What was reviewed
 
-The available first repository contains its generator, design documents, shared token/content/layout/render modules, static output, and a short README. It has one initial commit, with no separate planning document. This plan is reconstructed from that code, not an assertion that a historical plan was found.
+The complete August checkout and its only remote commit (`ba9f374`) were reviewed: URL collector, scraper, 150 reference directories, token parser, content generator, layout selector, renderer, generated pages and README. No separate historical planning/rules file exists in that checkout.
 
-1. Give each design direction a documented palette, font stacks, radii and layout/component prose.
-2. Extract semantic background, foreground, accent, action, border and surface tokens.
-3. Choose a hero, navigation, section sequence and footer from prose signals and seeded randomness.
-4. Pair each template with coherent fictional product copy.
-5. Emit self-contained HTML and a searchable gallery.
-6. Validate variation and readable foreground/background contrast.
+The original approach is explicitly **reference-led**: collect Refero style URLs, save each published DESIGN.md and provenance, extract semantic tokens, detect the documented layouts/components, and generate varied landing pages plus a searchable dark gallery. The long reference documents include typography, spacing, shapes, components, do/don't rules, imagery, and layout descriptions. The earlier October version's short authored briefs did not preserve that depth and have been replaced.
 
-## October collection
+## Current build rules
 
-- 24 original design directions, in a separate repo, with no duplicated source designs from collection 01.
-- Preserve the original token/parser and layout selection architecture.
-- Choose category explicitly in source metadata, so every fictional product has consistent copy.
-- Original per-template headline, palette, type, corners and section arrangement.
-- Five hero layouts and eight categories; deterministic builds.
-- Gallery plus standalone downloads, deployable token JSON, and TKTechnology catalog.
-- Functional in-page navigation, mobile menu, tabs with arrow-key controls, FAQ disclosures and demo contact form.
-- Improve muted-copy contrast and small-screen grids.
-- Keep demo claims visibly labeled and forms honest about their behavior.
-- Validate file links, fragments, color contrast, uniqueness, desktop/mobile behavior, and download independence.
-- Save source and generated output in their own GitHub repo; run a private-network preview.
+1. Keep `refero-design-systems/<id>/DESIGN.md` faithful to the published source. Save retrieval URL/title/date separately in `source.json`.
+2. Use 24 references absent from the August collection by both URL and title. The fixed baseline is `reference-exclusions.json`.
+3. Extract the actual level-two `## Layout` prose, not the nested `### Layout` spacing table. The inherited parser used a substring search that confused those headings; it now matches the exact heading line.
+4. Preserve the source palette, font stacks and corner tokens. Prefer explicit card/button/image radii over generic radius aliases. Use the hero/display type token before a smaller section heading token.
+5. Detect the hero, navigation, components and section types using the inherited layout module and a stable random seed. Respect left-text/right-media composition when explicitly documented.
+6. Derive image framing from the layout/imagery prose: framed, immersive or collage. Add stock hero photography as the user's explicit adaptation, including on references whose own products use screenshots. Never describe a stock photo as a screenshot of the reference product.
+7. Use new fictional brands and category-appropriate copy. Do not copy the real brand's identity, logos, customer claims or proprietary screenshots.
+8. Keep neutral source ink for readable text and adjust muted ink for at least 4.5:1 contrast. Select primary button fills from the documented button role before the inherited accent fallback; use black or white button text according to contrast.
+9. Preserve the dark gallery direction from collection 01. Include the reference name on each card and a source link on each page.
+10. Store photos locally with author, source page, license link and SHA-256. Embed the selected photo into standalone downloads.
+11. Verify source provenance, non-overlap, resolved links, semantic contrast, image loading, mobile layouts, interactions and offline downloads.
+12. Commit source and generated output to the separate October repo and update the WireGuard preview.
 
-## Scope
+## Deliberate limits
 
-These are static marketing templates in the same software-product direction as the original collection. They are not working analytics, payment, CRM or security backends. Live business integration belongs to each client's implementation. The TKTechnology production site is not present in this workspace; the catalog and static deployment folder are the handoff for its integration.
+These are adaptations, not pixel-for-pixel reproductions of the reference businesses. Shared rendering still uses the original five hero families and reusable section library. Section spacing is constrained to 48–120px for usability; unavailable brand fonts use each source's fallback stack. Product capabilities, pricing, sample customer quotes and the contact form are clearly marked as fictional/demo content.
+
+The August renderer in this checkout uses abstract CSS panels and contains no photo URLs or image assets. The revised collection adds the user-requested free photography rather than claiming an earlier photo implementation was recovered.

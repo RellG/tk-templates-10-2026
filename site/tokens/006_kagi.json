@@ -1,0 +1,137 @@
+{
+  "title": "Margin",
+  "referenceTitle": "Kagi",
+  "sourceUrl": "https://styles.refero.design/style/3a4d1008-0bd1-4ebb-9efe-0c146c45a99b",
+  "theme": "light",
+  "semantic": {
+    "bg": "#ffffff",
+    "fg": "#111111",
+    "accent": "#18181a",
+    "action": "#18181a",
+    "border": "#d9d9d9",
+    "muted": "#6a6a6a",
+    "surface": "#f7f7f7",
+    "alt": "#f1f1f1"
+  },
+  "fonts": {
+    "display": "'Lufga', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "body": "'Lufga', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "names": [
+      "lufga",
+      "system-ui",
+      "arial"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Graphite 1000",
+      "hex": "#18181a",
+      "token": "--color-graphite-1000",
+      "role": "Primary text, navigation, dark FAQ and footer surfaces, filled capsule buttons"
+    },
+    {
+      "name": "White",
+      "hex": "#ffffff",
+      "token": "--color-white",
+      "role": "Page canvas, search field, white utility cards, text on Graphite 1000"
+    },
+    {
+      "name": "Graphite 800",
+      "hex": "#454549",
+      "token": "--color-graphite-800",
+      "role": "Secondary body copy, dark-section dividers, subdued card copy"
+    },
+    {
+      "name": "Graphite 900",
+      "hex": "#2f2f31",
+      "token": "--color-graphite-900",
+      "role": "Inset dark surfaces, dark-field background, dark accordion separators"
+    },
+    {
+      "name": "Graphite 100",
+      "hex": "#e6e6e8",
+      "token": "--color-graphite-100",
+      "role": "Hairline borders, pale outlined-card edges, quiet surface separators"
+    },
+    {
+      "name": "Graphite 200",
+      "hex": "#cfcfd1",
+      "token": "--color-graphite-200",
+      "role": "Footer copy and subdued inverted text"
+    },
+    {
+      "name": "Graphite 300",
+      "hex": "#b7b7bb",
+      "token": "--color-graphite-300",
+      "role": "Muted footer labels, disabled-looking icon strokes, low-emphasis details"
+    },
+    {
+      "name": "Graphite 600",
+      "hex": "#707077",
+      "token": "--color-graphite-600",
+      "role": "Placeholder text, secondary icon strokes, muted control text"
+    },
+    {
+      "name": "Chrome Lavender",
+      "hex": "#efecff",
+      "token": "--color-chrome-lavender",
+      "role": "Pale selected-chip and minor highlighted-link surface"
+    },
+    {
+      "name": "Mist",
+      "hex": "#d6e3e8",
+      "token": "--color-mist",
+      "role": "Cool-tinted product-card and supporting showcase surface"
+    },
+    {
+      "name": "Kagi Violet",
+      "hex": "#6c5edc",
+      "token": "--color-kagi-violet",
+      "role": "Inline links, ecosystem eyebrows, and textual product signposts — the single vivid signal within the graphite-and-white interface"
+    },
+    {
+      "name": "Lavender Panel",
+      "hex": "#c9c1ff",
+      "token": "--color-lavender-panel",
+      "role": "Assistant and product-demo card backgrounds"
+    },
+    {
+      "name": "Sunlit Gold",
+      "hex": "#ffb319",
+      "token": "--color-sunlit-gold",
+      "role": "Search product-demo card background"
+    },
+    {
+      "name": "Soft Apricot",
+      "hex": "#ffe1a4",
+      "token": "--color-soft-apricot",
+      "role": "Supporting promotional card background"
+    }
+  ],
+  "plan": {
+    "hero": "split",
+    "nav": "minimal",
+    "sections": [
+      "logos",
+      "features",
+      "bento",
+      "band",
+      "quotes",
+      "faq",
+      "cta"
+    ],
+    "footer": "rule",
+    "signals": [
+      "centered",
+      "split",
+      "editorial",
+      "faq",
+      "band"
+    ],
+    "photoLayout": "framed"
+  },
+  "layoutText": "A 64px white top bar frames a centered, max-width 1176px editorial page. The opening screen is a centered stack: a large display headline, short centered supporting copy, then a wide pill-shaped search field with generous surrounding white space. Product content moves into a two-column grid of equal showcase cards, then alternates an unboxed text-left/product-visual-right split for broader platform features. Later content remains spacious and centered before switching to a full-width Graphite 1000 FAQ band with a narrow centered accordion column; the page resolves into a deep graphite, multi-column information footer. Sections flow without decorative dividers on the white canvas, while the dark FAQ uses horizontal row rules to create its rhythm.",
+  "imageryText": "Imagery is product-focused rather than lifestyle-based: browser windows, search results, assistant interfaces, and multi-device mockups demonstrate the tools directly. Product screens sit contained inside white, softly rounded frames over flat pastel panels, often with a shallow floating shadow; they are isolated from copy rather than overlapping it. The page is text-dominant at the hero and FAQ, while product imagery occupies the visual center of feature sections. Icons are sparse, small, and monochrome graphite or white line marks; vivid color belongs to panel backgrounds rather than illustration.",
+  "rules": "### Do\n- Use White (#ffffff) as the primary canvas and Graphite 1000 (#18181a) for all major headlines and public navigation.\n- Set display headlines in Lufga 60px/600/67.98px and section headings in Lufga 46px/600/51.98px.\n- Use a 1176px page maximum, 64px section gaps, 24px card padding, and 24px internal element gaps.\n- Use 48px radius with 7px 24px padding for filled Graphite 1000 (#18181a) capsule buttons.\n- Reserve Kagi Violet (#6c5edc) for links and ecosystem labels; pair selected-link fills with Chrome Lavender (#efecff).\n- Use Sunlit Gold (#ffb319), Lavender Panel (#c9c1ff), Soft Apricot (#ffe1a4), and Mist (#d6e3e8) as isolated 24px-radius product showcase surfaces.\n- Invert FAQ and footer sections with Graphite 1000 (#18181a), White (#ffffff) questions, and Graphite 900 (#2f2f31) dividers.\n\n### Don't\n- Do not use Kagi Violet (#6c5edc) as a filled public conversion button.\n- Do not use radii below 24px for promotional cards or product showcase panels.\n- Do not replace the 48px capsule button radius with a rectangular 5px or 8px control.\n- Do not put every content section inside bordered cards; leave editorial copy directly on the White (#ffffff) canvas.\n- Do not add gradients; use flat Sunlit Gold (#ffb319), Lavender Panel (#c9c1ff), Soft Apricot (#ffe1a4), or Mist (#d6e3e8) surfaces.\n- Do not use heavy elevation beyond rgba(0, 0, 0, 0.09) 1px 8px 30px 0px for hero controls and rgba(0, 0, 0, 0.22) 0px 0px 24px 0px for framed screenshots.\n- Do not set footer or FAQ body copy in pure White (#ffffff); use Graphite 200 (#cfcfd1) for supporting text.",
+  "adaptation": "Fictional copy and credited stock hero photography; no source brand logos or proprietary assets."
+}

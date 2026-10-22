@@ -1,0 +1,85 @@
+{
+  "title": "Framegrab",
+  "referenceTitle": "CleanShot X",
+  "sourceUrl": "https://styles.refero.design/style/679f08af-741f-4b04-bb44-0a9b97e96ad3",
+  "theme": "light",
+  "semantic": {
+    "bg": "#ffffff",
+    "fg": "#000000",
+    "accent": "#0d44e8",
+    "action": "#0d44e8",
+    "border": "#d6d6d6",
+    "muted": "#6c6c6c",
+    "surface": "#f6f6f6",
+    "alt": "#f0f0f0"
+  },
+  "fonts": {
+    "display": "'Google Sans Flex', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "body": "'Google Sans Flex', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "names": [
+      "google-sans-flex"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Paper White",
+      "hex": "#ffffff",
+      "token": "--color-paper-white",
+      "role": "Page backgrounds, card surfaces, white secondary controls, and light text on dark badges"
+    },
+    {
+      "name": "Absolute Ink",
+      "hex": "#000000",
+      "token": "--color-absolute-ink",
+      "role": "Display headlines, high-emphasis body copy, and the dominant text treatment on white"
+    },
+    {
+      "name": "Graphite",
+      "hex": "#161618",
+      "token": "--color-graphite",
+      "role": "Navigation text, secondary headings, dark outlines, icon strokes, and card-copy emphasis"
+    },
+    {
+      "name": "Soft Charcoal",
+      "hex": "#6a6a6b",
+      "token": "--color-soft-charcoal",
+      "role": "Long-form supporting copy, feature descriptions, and restrained metadata"
+    },
+    {
+      "name": "Studio Black",
+      "hex": "#0f0f12",
+      "token": "--color-studio-black",
+      "role": "Announcement badges and dark media or footer-like surfaces"
+    },
+    {
+      "name": "Electric Capture Blue",
+      "hex": "#0d44e8",
+      "token": "--color-electric-capture-blue",
+      "role": "Filled purchase and exploration buttons, blue product accents, and selected emphasis — a sharply saturated blue breaks the otherwise monochrome Mac-workspace palette"
+    }
+  ],
+  "plan": {
+    "hero": "centered",
+    "nav": "centered",
+    "sections": [
+      "logos",
+      "bento",
+      "band",
+      "quotes",
+      "cta"
+    ],
+    "footer": "columns",
+    "signals": [
+      "centered",
+      "split",
+      "logos",
+      "quotes",
+      "band"
+    ],
+    "photoLayout": "framed"
+  },
+  "layoutText": "The page is a white, centered marketing composition with a compact top navigation bar, an above-the-fold centered hero, and a media/testimonial pair immediately below the initial conversion controls. The hero stacks a dark announcement badge, two-line headline, descriptive copy, side-by-side filled and white-outline buttons, then a guarantee line; pale blue atmospheric glow is contained behind the hero rather than becoming a section background. A muted horizontal trust-logo strip bridges into spacious alternating feature rows, where black text occupies one side and a large rounded product composition occupies the other. Testimonial content forms a three-card horizontal carousel on white with small circular arrow controls, followed by a full-width Studio Black band that introduces a darker product-focused mode.",
+  "imageryText": "Imagery is product-led rather than lifestyle-led: contained screenshot and recording scenes show layered macOS windows, message panes, dashboards, and small photographic content tiles. Large media is cropped into 20px rounded rectangles and often combines a pale blue glow or gradient field with a floating dark application window, giving the product visual a desktop-depth effect. The page is text-dominant between media moments; visuals act as explanatory product showcase rather than decoration. Icons are compact, mostly Graphite outline glyphs, while trust logos are rendered as low-contrast monochrome marks.",
+  "rules": "### Do\n- Use Paper White #ffffff as the default canvas and card surface, with Absolute Ink #000000 for display headings.\n- Set hero headlines in Google Sans Flex 60px/600 with 66px line-height and -1.2px tracking.\n- Set section headlines in Google Sans Flex 40px/600 with 48px line-height and -0.8px tracking.\n- Use Electric Capture Blue #0d44e8 only for filled purchase or exploration controls and focused product accents.\n- Give cards and media containers a 20px radius; give rectangular buttons, badges, and inputs a 14px radius.\n- Use 12px as the default local gap, 16px as the standard compact inset, and 40px as the section-gap token.\n- Apply the recorded multi-layer graphite card shadow to Paper White #ffffff testimonial and content cards.\n\n### Don't\n- Do not use #0d44e8 as a page background, broad section fill, or default text color.\n- Do not replace 14px button corners with pill shapes; reserve 9999px radius for icon-only controls.\n- Do not use heavy opaque black shadows on cards; use the low-opacity Graphite shadow stack instead.\n- Do not set supporting paragraphs in Absolute Ink #000000; use Soft Charcoal #6a6a6b at 18px/450 with 30px line-height.\n- Do not introduce colorful semantic badge palettes; use Studio Black #0f0f12 or Paper White #ffffff chips unless a product state requires otherwise.\n- Do not place unframed product screenshots directly on the canvas; crop them into 20px-radius media cards with layered macOS-window depth.\n- Do not use bold 700–800 display type; keep headlines at Google Sans Flex 600.",
+  "adaptation": "Fictional copy and credited stock hero photography; no source brand logos or proprietary assets."
+}

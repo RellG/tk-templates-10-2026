@@ -1,0 +1,120 @@
+{
+  "title": "Verdant",
+  "referenceTitle": "Nuxt",
+  "sourceUrl": "https://styles.refero.design/style/d9a19632-e9ee-4c9c-849b-ed48b1c43ee7",
+  "theme": "dark",
+  "semantic": {
+    "bg": "#020618",
+    "fg": "#ffffff",
+    "accent": "#00dc82",
+    "action": "#00dc82",
+    "border": "#0c2229",
+    "muted": "#8d8f97",
+    "surface": "#06121f",
+    "alt": "#0a1b25"
+  },
+  "fonts": {
+    "display": "'Public Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "body": "'Public Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "names": [
+      "public-sans",
+      "ui-monospace"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Void Canvas",
+      "hex": "#020618",
+      "token": "--color-void-canvas",
+      "role": "Page background, header field, dark controls, command surfaces"
+    },
+    {
+      "name": "Midnight Panel",
+      "hex": "#080e21",
+      "token": "--color-midnight-panel",
+      "role": "Card surfaces, code-editor body, contained product panels"
+    },
+    {
+      "name": "Deep Slate",
+      "hex": "#0f172b",
+      "token": "--color-deep-slate",
+      "role": "Selected dark tabs, secondary dark buttons, inset control surfaces"
+    },
+    {
+      "name": "Steel Outline",
+      "hex": "#1d293d",
+      "token": "--color-steel-outline",
+      "role": "Hairline card outlines, image frames, dark raised button fills"
+    },
+    {
+      "name": "Blue Steel",
+      "hex": "#314158",
+      "token": "--color-blue-steel",
+      "role": "Inset control rings, subdued control borders, navigation separators"
+    },
+    {
+      "name": "Muted Fog",
+      "hex": "#90a1b9",
+      "token": "--color-muted-fog",
+      "role": "Body copy, inactive navigation, secondary labels, supporting metadata"
+    },
+    {
+      "name": "Pale Frost",
+      "hex": "#e2e8f0",
+      "token": "--color-pale-frost",
+      "role": "High-emphasis navigation text, secondary button labels, light icon strokes"
+    },
+    {
+      "name": "Signal White",
+      "hex": "#ffffff",
+      "token": "--color-signal-white",
+      "role": "Display headings, selected tab labels, inverted button fills"
+    },
+    {
+      "name": "Nuxt Signal",
+      "hex": "#00dc82",
+      "token": "--color-nuxt-signal",
+      "role": "Filled getting-started buttons, logo, release markers, highlighted display words — vivid green acts as a precise activation signal in the blue-black interface"
+    },
+    {
+      "name": "Vue Link",
+      "hex": "#42b883",
+      "token": "--color-vue-link",
+      "role": "Partner-technology links and small ecosystem references"
+    },
+    {
+      "name": "Vite Link",
+      "hex": "#a156fe",
+      "token": "--color-vite-link",
+      "role": "Vite ecosystem links and compact technology references"
+    },
+    {
+      "name": "Nitro Link",
+      "hex": "#fb848e",
+      "token": "--color-nitro-link",
+      "role": "Nitro ecosystem links and compact technology references"
+    }
+  ],
+  "plan": {
+    "hero": "split",
+    "nav": "split",
+    "sections": [
+      "logos",
+      "features",
+      "band",
+      "quotes",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "footer": "minimal",
+    "signals": [
+      "band"
+    ],
+    "photoLayout": "framed"
+  },
+  "layoutText": "The page is a full-width, blue-black documentation-marketing composition within a 1440px container system. A fixed-feeling 64px top bar runs across the canvas; the hero below uses a left-aligned text block and right-aligned editor demonstration, with a release pill above the 72px display and a small command line below the action row. Subsequent sections are separated by thin horizontal rules and broad 64px vertical rhythm: a left-aligned 48px heading introduces a four-column feature grid, then a left-aligned modules introduction leads into a three-card horizontal carousel with centered pagination dots. Content stays compact inside sections, with 8px and 16px local gaps, rather than alternating into large colored bands.",
+  "imageryText": "The page is text- and UI-dominant, with the editor demonstration serving as the hero visual and repository cards acting as product-data tiles. Graphics are contained rather than full-bleed: dark framed panes, small monochrome or green line icons, and compact code syntax sit on blue-black fields. There is no lifestyle photography, illustration, or decorative gradient atmosphere; visual space is allocated to real interface anatomy, file trees, tabs, command snippets, and metrics.",
+  "rules": "### Do\n- Use Void Canvas #020618 as the default page field and Midnight Panel #080e21 for contained product surfaces.\n- Set display headlines in Public Sans 700 at 72px/72px or 48px/48px with -1.8px or -1.2px tracking.\n- Use Nuxt Signal #00dc82 for filled getting-started actions, release markers, logo treatment, and isolated headline emphasis.\n- Apply 6px radii to controls and inputs; use 8px radii for standard cards.\n- Build spacing from the 4px base unit, using 8px element gaps, 12px card padding, and 64px section gaps.\n- Outline panels and controls with 1px Steel Outline #1d293d or inset Blue Steel #314158 rings instead of soft cast shadows.\n- Keep body and inactive navigation copy in Muted Fog #90a1b9; reserve Signal White #ffffff for headings and selected states.\n\n### Don't\n- Do not use gradients; the interface relies on flat blue-black planes and single-color green punctuation.\n- Do not round controls into 9999px pills except compact release markers and badge-like status controls.\n- Do not use shadows with blur or vertical offset; use the 0 0 0 1px #1d293d panel ring.\n- Do not turn all buttons green; use #00dc82 only for conversion-oriented public actions and use dark or white utility variants elsewhere.\n- Do not introduce large soft cards around feature-grid items; feature cells remain borderless on #020618.\n- Do not set display headings at semibold weights or positive tracking; retain Public Sans 700 and -0.025em tracking.\n- Do not use ecosystem link colors #42b883, #a156fe, or #fb848e as global semantic status colors.",
+  "adaptation": "Fictional copy and credited stock hero photography; no source brand logos or proprietary assets."
+}

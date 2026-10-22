@@ -1,0 +1,152 @@
+{
+  "title": "Outline",
+  "referenceTitle": "Linear",
+  "sourceUrl": "https://styles.refero.design/style/90ce5883-bb24-4466-93f7-801cd617b0d1",
+  "theme": "dark",
+  "semantic": {
+    "bg": "#08090a",
+    "fg": "#ffffff",
+    "accent": "#e4f222",
+    "action": "#e4f222",
+    "border": "#23252a",
+    "muted": "#909091",
+    "surface": "#191a1b",
+    "alt": "#262727"
+  },
+  "fonts": {
+    "display": "'Inter Variable', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "body": "'Inter Variable', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "names": [
+      "inter-variable",
+      "berkeley-mono"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Void",
+      "hex": "#08090a",
+      "token": "--color-void",
+      "role": "Page canvas, full-bleed backgrounds — the default everything sits on"
+    },
+    {
+      "name": "Carbon",
+      "hex": "#0f1011",
+      "token": "--color-carbon",
+      "role": "Card surfaces, nav bars — one step above canvas for contained content"
+    },
+    {
+      "name": "Obsidian",
+      "hex": "#161718",
+      "token": "--color-obsidian",
+      "role": "Elevated surfaces, deeper card panels"
+    },
+    {
+      "name": "Graphite",
+      "hex": "#23252a",
+      "token": "--color-graphite",
+      "role": "Subtle borders, dividers, ghost button outlines — low-contrast structural edges"
+    },
+    {
+      "name": "Smoke",
+      "hex": "#383b3f",
+      "token": "--color-smoke",
+      "role": "Hairline borders at higher contrast than graphite — section separators"
+    },
+    {
+      "name": "Ash",
+      "hex": "#62666d",
+      "token": "--color-ash",
+      "role": "Muted body text, inactive icons, secondary metadata"
+    },
+    {
+      "name": "Fog",
+      "hex": "#8a8f98",
+      "token": "--color-fog",
+      "role": "Tertiary text, placeholder copy, icon fills"
+    },
+    {
+      "name": "Mist",
+      "hex": "#d0d6e0",
+      "token": "--color-mist",
+      "role": "Secondary headings, button text on dark surfaces"
+    },
+    {
+      "name": "Bone",
+      "hex": "#e5e5e6",
+      "token": "--color-bone",
+      "role": "Near-white surface fills, high-contrast button text"
+    },
+    {
+      "name": "Paper",
+      "hex": "#ffffff",
+      "token": "--color-paper",
+      "role": "Primary headings, hero type, max-contrast emphasis text"
+    },
+    {
+      "name": "Acid Lime",
+      "hex": "#e4f222",
+      "token": "--color-acid-lime",
+      "role": "Primary action buttons, active nav indicators — electric accent that breaks the monochrome system"
+    },
+    {
+      "name": "Pulse Green",
+      "hex": "#27a644",
+      "token": "--color-pulse-green",
+      "role": "Green outline accent for tags, dividers, and focused UI edges. Use as a supporting accent, not as a status color"
+    },
+    {
+      "name": "Coral Red",
+      "hex": "#eb5757",
+      "token": "--color-coral-red",
+      "role": "Red wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Use as a supporting accent, not as a status color"
+    },
+    {
+      "name": "Signal Teal",
+      "hex": "#02b8cc",
+      "token": "--color-signal-teal",
+      "role": "Decorative accent, informational icon fills"
+    },
+    {
+      "name": "Iris Violet",
+      "hex": "#6366f1",
+      "token": "--color-iris-violet",
+      "role": "Tag/badge fills — soft chromatic punctuation on tags and labels"
+    },
+    {
+      "name": "Lavender",
+      "hex": "#8b5cf6",
+      "token": "--color-lavender",
+      "role": "Secondary tag fills, category indicators"
+    }
+  ],
+  "plan": {
+    "hero": "split",
+    "nav": "split",
+    "sections": [
+      "logos",
+      "stats",
+      "alternating",
+      "bento",
+      "showcase",
+      "band",
+      "cta"
+    ],
+    "footer": "columns",
+    "signals": [
+      "split",
+      "fullBleed",
+      "oversized",
+      "logos",
+      "bento",
+      "stats",
+      "showcase",
+      "band",
+      "screenshot"
+    ],
+    "photoLayout": "framed"
+  },
+  "layoutText": "Layout is max-width contained at ~1200px, centered, with full-bleed dark backgrounds extending to viewport edges. The hero is a left-aligned oversized headline (64–72px) paired with a right-aligned link CTA, followed by a large product screenshot that bleeds beyond the max-width slightly. Section rhythm alternates between text-left/image-right 2-column compositions and full-width product showcase bands, separated by 96px vertical gaps. The customer logo strip is a single horizontal row. The page never uses 3-column card grids or masonry — information density stays low, with most sections using generous whitespace and a single focal point per screen. Navigation is a fixed top bar with left-aligned logo and right-aligned links, no sidebar, no mega-menu.",
+  "imageryText": "Linear's visual language is product-screenshot-first: the hero and section illustrations are real Linear app UI captured at full fidelity — issue cards, kanban boards, AI agent panels, command palettes — placed inside framed card containers with hairline borders. No stock photography, no lifestyle imagery, no abstract illustration. Logos appear as a customer strip in neutral grey (#8a8f98) at uniform size. Icons are minimal line-art SVGs in single-color grey scale. The hero screenshot floats on a subtle linear gradient (dark-to-light) that creates atmospheric depth without literal scenery. Every visual element is a functional artifact of the product itself.",
+  "rules": "### Do\n- Use Inter Variable with font-feature-settings 'cv01' on, 'ss03' on, 'zero' on — these alternate glyphs define Linear's typographic identity\n- Use #e4f222 exclusively for the single primary action per view — never for decoration, never for secondary buttons\n- Set body text at 16px Inter weight 400 with line-height 1.5 — larger reading sizes (17px+ at weight 590) are reserved for body emphasis blocks\n- Use letter-spacing -0.022em at 48px and above — tight tracking is non-negotiable for display type\n- Set card radius to 12px, button radius to 6px, pill radius to 9999px — three radii is the entire radius vocabulary\n- Use 0.5px hairline borders (#23252a or #383b3f) instead of shadows for surface separation — Linear's elevation comes from borders and subtle inner shadows\n- Keep section gaps at 96px and element gaps at 8px — the 8/12/24/96 spacing ladder is the rhythm\n\n### Don't\n- Do not use bold weights (700+) — Linear's type scale caps at weight 590, the system deliberately avoids heavy display weights\n- Do not use decorative gradients on buttons, cards, or text — gradients are reserved for the hero atmospheric floor only\n- Do not introduce additional chromatic accent colors as actions — the acid-lime button is the only chromatic UI element\n- Do not use large radii (16px+) on cards or panels — 12px is the max card radius in this system\n- Do not use shadows to separate cards from the canvas — use hairline borders (#23252a) and inner inset shadows instead\n- Do not use chromatic text colors for body copy — all body text sits in the #d0d6e0 / #8a8f98 / #62666d grey scale\n- Do not use Berkeley Mono for headings or marketing copy — it is reserved for issue IDs, keyboard shortcuts, and technical metadata",
+  "adaptation": "Fictional copy and credited stock hero photography; no source brand logos or proprietary assets."
+}

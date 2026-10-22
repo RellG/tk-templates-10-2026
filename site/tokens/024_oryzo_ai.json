@@ -1,0 +1,93 @@
+{
+  "title": "Goodform",
+  "referenceTitle": "ORYZO AI",
+  "sourceUrl": "https://styles.refero.design/style/1f204e95-454a-437e-845b-c1b169d35607",
+  "theme": "dark",
+  "semantic": {
+    "bg": "#100904",
+    "fg": "#ffedd7",
+    "accent": "#382416",
+    "action": "#382416",
+    "border": "#40372e",
+    "muted": "#998c7d",
+    "surface": "#211913",
+    "alt": "#2d241d"
+  },
+  "fonts": {
+    "display": "'halyard-display-variable', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "body": "'halyard-display-variable', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "names": [
+      "halyard-display-variable",
+      "arial"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Warm Cream",
+      "hex": "#ffedd7",
+      "token": "--color-warm-cream",
+      "role": "Light text on dark surfaces, inverse labels, and high-contrast captions."
+    },
+    {
+      "name": "Walnut Shadow",
+      "hex": "#100904",
+      "token": "--color-walnut-shadow",
+      "role": "Page canvas and deepest background — warm near-black, not pure black. The void behind every product reveal"
+    },
+    {
+      "name": "Bark Brown",
+      "hex": "#382416",
+      "token": "--color-bark-brown",
+      "role": "Elevated surface and filled button background — the one chromatic step above the canvas, used for the single solid CTA"
+    },
+    {
+      "name": "Cork Border",
+      "hex": "#40372e",
+      "token": "--color-cork-border",
+      "role": "Hairline dividers, dashed section separators, subtle container borders — warmer than the canvas by one step"
+    },
+    {
+      "name": "Driftwood",
+      "hex": "#6c5f51",
+      "token": "--color-driftwood",
+      "role": "Mid-tone warm gray for secondary dividers and muted structural elements — the bridge between Bark and Cream"
+    },
+    {
+      "name": "Ember Accent",
+      "hex": "#dc5000",
+      "token": "--color-ember-accent",
+      "role": "Orange text accent for links, tags, and emphasized short phrases."
+    },
+    {
+      "name": "Pure Black",
+      "hex": "#000000",
+      "token": "--color-pure-black",
+      "role": "SVG icon fills and decorative vector elements only — never used as a background or text color"
+    }
+  ],
+  "plan": {
+    "hero": "display",
+    "nav": "minimal",
+    "sections": [
+      "stats",
+      "features",
+      "alternating",
+      "tabs",
+      "showcase",
+      "band",
+      "cta"
+    ],
+    "footer": "rule",
+    "signals": [
+      "fullBleed",
+      "editorial",
+      "oversized",
+      "stats"
+    ],
+    "photoLayout": "immersive"
+  },
+  "layoutText": "Full-bleed throughout — no max-width container, every section spans 100vw. Hero: full-viewport top-down photograph with a massive ORYZO wordmark (51px+) in the upper-left, tagline above, fixed minimal nav upper-right, vertical sidebar label running down the right edge, semi-transparent info card lower-left, video thumbnail lower-right. Subsequent sections: full-viewport Walnut Shadow canvas with a centered 3D product render flanked by left-aligned heading and right-aligned body copy — a three-column grid (text / object / text) with generous 18px gutters. Section transitions are seamless dark-on-dark; the only breaks are hairline dashed dividers. Navigation is fixed, transparent, and 4 items max. No sidebar, no footer chrome, no cards-within-cards — every screen is a single statement.",
+  "imageryText": "Photography is editorial, top-down, and in-context: the cork coaster sits on a green cutting mat surrounded by pencils, a craft knife, and a paperclip — tools of the craft visible in frame. The green cutting mat (#445231) is a hero-only element, not a UI token. 3D renders dominate the product reveal sections: the cork coaster is shown isolated against Walnut Shadow, lit from the upper right with a warm rim light, rotating from top-down to 3/4 angle between sections. No lifestyle photography, no people, no stock imagery — the object is the hero and the tools are its context. Images are full-bleed, sharp-edged (no rounded masks), and treated with high contrast and warm grading.",
+  "rules": "### Do\n- Set all UI text in #ffedd7 (Warm Cream) — never use pure #fff; the warm tint is the system's signature.\n- Use #dc5000 (Ember) only for credit lines, the \"Built by\" label, and the Lusion studio link — a single accent earns its rarity through restraint.\n- Set type in uppercase weight 500 across the entire interface; use weight 400 / mixed case only for the 29px body copy that explains the product.\n- Use 36px border-radius for the one filled CTA and 22.5px for outlined ghost buttons; 12px for cards; 0px for inputs and inline links — these four values are the entire radius vocabulary.\n- Set section gaps at 100vh — each section gets its own full viewport, never compress product reveals into bands.\n- Use 1px dashed lines in #40372 for section dividers; avoid solid dividers and avoid any divider thicker than 2px.\n- Center the 3D product render in every void-mode section with text flanking symmetrically left and right at 18px gutters.\n\n### Don't\n- Never use pure #fff for text or #000 for backgrounds — the warm cream and walnut shadow are the system; purity reads as wrong here.\n- Never apply #dc5000 to buttons, CTAs, or interactive surfaces — the orange is editorial credit only.\n- Never use lowercase or sentence-case for headings, nav, or labels; the only mixed-case text is the 29px body description.\n- Never add drop shadows to cards, buttons, or sections — depth comes from the two-step surface stack (#100904 → #382416), not from blur.\n- Never use border-radius below 12px on containers — the geometry is deliberately chunky, not sharp.\n- Never use more than one filled button per section; restraint is the design language.\n- Never center-align body copy — headings and body text are always left-aligned, even when flanking a centered image.",
+  "adaptation": "Fictional copy and credited stock hero photography; no source brand logos or proprietary assets."
+}

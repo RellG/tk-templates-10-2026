@@ -1,0 +1,132 @@
+{
+  "title": "Worktree",
+  "referenceTitle": "GitButler",
+  "sourceUrl": "https://styles.refero.design/style/92f92f04-d3a7-4e5b-9a1d-f23c9a4d16dc",
+  "theme": "light",
+  "semantic": {
+    "bg": "#ffffff",
+    "fg": "#1c1917",
+    "accent": "#25b1b1",
+    "action": "#25b1b1",
+    "border": "#dbdada",
+    "muted": "#6b6968",
+    "surface": "#f7f7f7",
+    "alt": "#f1f1f1"
+  },
+  "fonts": {
+    "display": "'But Head', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "body": "'But Head', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+    "names": [
+      "but-head",
+      "inter",
+      "geist-mono",
+      "source-code-pro"
+    ]
+  },
+  "palette": [
+    {
+      "name": "Paper",
+      "hex": "#f3f2f1",
+      "token": "--color-paper",
+      "role": "Page background and low-contrast section surface"
+    },
+    {
+      "name": "White",
+      "hex": "#ffffff",
+      "token": "--color-white",
+      "role": "Terminal chrome, badges, light controls, and elevated content surfaces"
+    },
+    {
+      "name": "Ink",
+      "hex": "#1c1917",
+      "token": "--color-ink",
+      "role": "Primary headings, navigation, body text, icons, and hairline outlined controls"
+    },
+    {
+      "name": "Charcoal",
+      "hex": "#272321",
+      "token": "--color-charcoal",
+      "role": "Terminal demonstration background and dark text-on-light supporting surface"
+    },
+    {
+      "name": "Deep Graphite",
+      "hex": "#3a3532",
+      "token": "--color-deep-graphite",
+      "role": "Dark installation-panel fill and inset terminal depth"
+    },
+    {
+      "name": "Warm Gray",
+      "hex": "#7c716a",
+      "token": "--color-warm-gray",
+      "role": "Body copy, helper text, secondary links, and subdued icons"
+    },
+    {
+      "name": "Steel",
+      "hex": "#aaa29d",
+      "token": "--color-steel",
+      "role": "Inactive controls and muted icon strokes"
+    },
+    {
+      "name": "Rule Gray",
+      "hex": "#cac6c3",
+      "token": "--color-rule-gray",
+      "role": "1px borders, feature-grid dividers, outlined control borders, and muted tiled surfaces"
+    },
+    {
+      "name": "Aqua Mist",
+      "hex": "#d3f3f3",
+      "token": "--color-aqua-mist",
+      "role": "Pale promotional card surface and cool highlighted section wash"
+    },
+    {
+      "name": "Aqua Midtone",
+      "hex": "#8dd9d9",
+      "token": "--color-aqua-midtone",
+      "role": "Secondary aqua surface for layered promotional artwork"
+    },
+    {
+      "name": "Outline Aqua",
+      "hex": "#9fe4e4",
+      "token": "--color-outline-aqua",
+      "role": "Outlined documentation-control border and monospace command highlight"
+    },
+    {
+      "name": "Butler Teal",
+      "hex": "#25b1b1",
+      "token": "--color-butler-teal",
+      "role": "Filled login control and large conversion panels — saturated teal punctuates the mostly paper-and-ink interface"
+    },
+    {
+      "name": "Deep Teal",
+      "hex": "#1d8a8a",
+      "token": "--color-deep-teal",
+      "role": "Badge text, command syntax, icon fills, and teal display-text accents"
+    }
+  ],
+  "plan": {
+    "hero": "display",
+    "nav": "minimal",
+    "sections": [
+      "logos",
+      "features",
+      "alternating",
+      "tabs",
+      "quotes",
+      "cta"
+    ],
+    "footer": "rule",
+    "signals": [
+      "split",
+      "fullBleed",
+      "editorial",
+      "tabs",
+      "quotes",
+      "screenshot"
+    ],
+    "photoLayout": "framed"
+  },
+  "layoutText": "The page uses a centered, contained content column on a Paper canvas, with a slim top header that places the wordmark left and navigation plus account controls right. The hero leads with a large left-aligned editorial headline, a horizontal CLI/Desktop selector, compact explanatory text, then a paired dark install panel and rounded documentation link before a wide terminal demonstration. Below it, a compact feature-tab strip feeds into a bordered two-by-three capability grid; later sections continue as broad, generously separated stacks with a two-column testimonial area and a full-width teal conversion card. The page is text-dominant, using screenshots of terminal UI and dotted technical textures as contained proof rather than full-bleed imagery.",
+  "imageryText": "Visuals are product-focused terminal and command-line screenshots contained in rounded frames, with no lifestyle photography. Graphics are sparse and technical: fine monochrome line icons, faint dot-matrix grids behind feature cards, tiny terminal-window controls, and subtle dark grain or code-like texture inside teal promotional panels. Imagery supports explanations and product proof; editorial typography occupies more visual space than graphics.",
+  "rules": "### Do\n- Use Paper #f3f2f1 as the default page canvas and Ink #1c1917 as the default text color.\n- Set hero headlines in But Head 82px/82px weight 400 with -0.82px tracking.\n- Set section headlines in But Head 60px/60px weight 400 and keep their tracking normal.\n- Use Inter 16px/24px weight 400 in Warm Gray #7c716a for explanatory copy.\n- Build technical grids with 1px solid Rule Gray #cac6c3 and 8px outer corners.\n- Use 60px radius only for segmented platform selectors and compact outlined reference controls.\n- Use Butler Teal #25b1b1 for filled conversion controls and 20px-radius promotional surfaces.\n\n### Don't\n- Do not replace Paper #f3f2f1 with pure white as the page canvas.\n- Do not set But Head headings at weights above 400.\n- Do not use Butler Teal #25b1b1 as a universal fill for feature cards, navigation, and every action.\n- Do not give square outline buttons a pill radius; keep them at 0px with 12px 20px padding.\n- Do not use borderless floating cards in the feature system; use 1px Rule Gray #cac6c3 dividers.\n- Do not use heavy drop shadows on ordinary cards; reserve the terminal shadow for product-demo elevation.\n- Do not use colored semantic red or green as recurring interface states without product-status evidence.",
+  "adaptation": "Fictional copy and credited stock hero photography; no source brand logos or proprietary assets."
+}
